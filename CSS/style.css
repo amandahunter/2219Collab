@@ -7,14 +7,14 @@ body{
   
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #0A9396;
     
   }
   
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #94D2BD;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -22,12 +22,12 @@ body{
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #94D2BD;
+    color: white;
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #005F73;
     color: white;
   }
   
