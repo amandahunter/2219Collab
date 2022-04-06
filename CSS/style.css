@@ -21,14 +21,16 @@ body{
     font-size: 17px;
   }
   
+/* settoings for when you are hovering over a new page in navbar - BC */
   .topnav a:hover {
-    background-color: #94D2BD;
+    background-color: #54b4b6;
     color: white;
   }
-  
+
+  /* page you are on is highlighted with these settings - BC */
   .topnav a.active {
     background-color: #0A9396;
-    color: #94D2BD;
+    color: white;
   }
   
   .topnav .icon {
