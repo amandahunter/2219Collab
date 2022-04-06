@@ -1,5 +1,6 @@
 /* Website to find the colour palette https://coolors.co/palettes/trending */ 
 /* Colour palette we are currently using: https://coolors.co/palette/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226 */
+
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -59,3 +60,53 @@ body{
       text-align: left;
     }
   }
+/*End of Navbar*/ 
+
+/* Hero Image - Last Update April 5 - By BC*/
+/*This sets up the height of the whole page*/   
+body, html {
+  height: 100%;
+}
+/*add the banner image */
+.hero-image {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width:100%;
+  margin-top:0px;
+}
+/* Add the Hero Image + Style each page here */
+#home {
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/HeroImages/Water.jpg");
+}
+/* Add text to the Hero Image here */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(221, 214, 214);
+  text-shadow: 2px 2px #2C3531;
+  font-size: 30pt;
+  font-family: Tahoma, sans-serif;
+}
+
+@media all and (max-width: 775px) {
+.hero-text {
+  font-size: 20pt;
+}
+}
+/* end of the Banner CSS */ 
+/* Footer - Last Updated April 5 - BC */ 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #005F73;
+  color: white;
+  text-align: center;
+}
