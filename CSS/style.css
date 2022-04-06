@@ -1,5 +1,6 @@
 /* Website to find the colour palette https://coolors.co/palettes/trending */ 
 /* Colour palette we are currently using: https://coolors.co/palette/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226 */
+/*Font we are using is: Arial, Helvetica, sans-serif;*/ 
 
 body{
     margin: 0;
@@ -23,7 +24,7 @@ body{
     font-size: 17px;
   }
   
-/* settoings for when you are hovering over a new page in navbar - BC */
+/* settings for when you are hovering over a new page in navbar - BC */
   .topnav a:hover {
     background-color: #54b4b6;
     color: white;
@@ -109,4 +110,37 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("
   background-color: #005F73;
   color: white;
   text-align: center;
+}
+/* end of footer */ 
+/* Top Button */ 
+#topbutton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: CA6702;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#topbutton:hover {
+  background-color: #BB3E03;
+}
+/* end of Top Button*/ 
+
+/* HOME PAGE */
+.intro {
+  text-align: center;
+  margin:40px;
+  padding: 10px;
+}
+.intro h1 {
+  color: #001219;
+  text-shadow: none;
+  font-size: 40px;
 }
