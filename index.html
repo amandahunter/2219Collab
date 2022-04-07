@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="CSS/style.css">
-    <script src="JS/script.js"></script>
+    <script src="JS/script.js" defer></script>
     <title>WebFoxtrot</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -12,9 +12,19 @@
     <header class="header">
         <div class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
+            <!-- Add a drop down to our nav bar for the project section - by KS & BC - On April 5 2022 - Adapted from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+            <div class="dropdown">
+                <button class="dropbtn">Project
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Project.html#paragraph1">Project</a> <!--currently set to link to the section on 1 page can change to diff pages if needed - BC -->
+                  <a href="Project.html#paragraph2">Method</a>
+                  <a href="Project.html#paragraph3">Solution</a>
+                </div>
+              </div>
             <a href="about.html">About Us</a>
             <a href="contact.html">Contact</a>
-            <a href="Project.html">Project</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
             </a>
@@ -22,8 +32,8 @@
         <div style="padding-left:16px">
         </div>
     </header>
-    <!-- Button to scroll back to top - BC-->
-    <button onclick="topFunction()" id="topbutton" title="Back to top">Top</button>
+    <!-- Button to scroll back to top of page - BC-->
+    <button onclick="topFunction()" id="topBtn" title="Back to top">Top</button>
     <!-- Hero Image - BC -->
     <div class="hero-image" id="home">
         <div class="hero-text">
@@ -35,7 +45,7 @@
     <div class="footer">
         <p>WebFoxtrot</p>
     </div>
-    <div class="intro">
+    <div class="intro big-headings">
         <h1>Put the intro to the project here. Put the intro to the project here.Put the intro to the 
             project here.Put the intro to the project here.Put the intro to the project here. Put the 
             intro to the project here.Put the intro to the project here.Put the intro to the project 
@@ -48,11 +58,12 @@
             project here.Put the intro to the project here.Put the intro to the project here. Put the 
             intro to the project here.Put the intro to the project here.Put the intro to the project 
             here.Put the intro to the project here.Put the intro to the project here.</h1>
-            <h1>Put the intro to the project here. Put the intro to the project here.Put the intro to the 
-                project here.Put the intro to the project here.Put the intro to the project here. Put the 
+        <h1>Put the intro to the project here. Put the intro to the project here.Put the intro to the 
+            project here.Put the intro to the project here.Put the intro to the project here. Put the 
                 intro to the project here.Put the intro to the project here.Put the intro to the project 
-                here.Put the intro to the project here.Put the intro to the project here.</h1>
-            <h1>Put the intro to the project here. Put the intro to the project here.Put the intro to the 
+                here.Put the intro to the project here.Put the intro to the project here.here.Put the intro 
+                to the project here.Put the intro to the project here.</h1>
+        <h1>Put the intro to the project here. Put the intro to the project here.Put the intro to the 
                 project here.Put the intro to the project here.Put the intro to the project here. Put the 
                 intro to the project here.Put the intro to the project here.Put the intro to the project 
                 here.Put the intro to the project here.Put the intro to the project here.</h1>
