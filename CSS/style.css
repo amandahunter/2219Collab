@@ -28,7 +28,7 @@ body{
     color: white;
   }
   /* page you are on is highlighted with these settings - BC */
-  .topnav a.active {
+  .topnav .active {
     background-color: #0A9396;
     color: white;
   } 

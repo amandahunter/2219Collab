@@ -2,30 +2,45 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="CSS/style.css">
-    <script src="JS/script.js"></script>
+    <script src="JS/script.js" defer></script>
     <title>WebFoxtrot</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-     <!-- Navbar set up - Last Updated on April 4 2022- by KS and BC - adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Navbar set up - Last Updated on April 4 2022- by KS and BC - adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <header class="header">
         <div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
+            <a href="index.html" >Home</a>
+            <!-- Add a drop down to our nav bar for the project section - by KS & BC - On April 5 2022 - Adapted from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+            <div class="dropdown">
+                <button class="dropbtn">Project
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Project.html">Project</a> <!--currently set to link to the section on 1 page can change to diff pages if needed - BC -->
+                  <a href="Project.html#paragraph2">Method</a>
+                  <a href="Project.html#paragraph3">Solution</a>
+                </div>
+              </div>
             <a href="about.html" class="active">About Us</a>
             <a href="contact.html">Contact</a>
-            <a href="Project.html">Project</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
             </a>
         </div>
-          <div style="padding-left:16px">
-        </div>
     </header>
+    <!-- Button to scroll back to top of page - BC-->
+    <button onclick="topFunction()" id="topBtn" title="Back to top">Top</button>
+    <!-- Hero Image - BC -->
     <div class="hero-image" id="home">
         <div class="hero-text">
             <h1>WebFoxtrot</h1>
             <p>blurb here</p>
         </div>
+    </div>
+    <!-- Footer BC -->
+    <div class="footer">
+        <p>WebFoxtrot</p>
     </div>
 </body>
