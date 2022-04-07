@@ -98,6 +98,8 @@ body{
 }
 /*End of Navbar*/ 
 
+
+
 /* Hero Image - Last Update April 5 - By BC*/
 /*This sets up the height of the whole page*/   
 body, html {
@@ -166,7 +168,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("
 }
 /* end of Top Button*/ 
 
-/* HOME PAGE */
+/* HOME PAGE - BC */
 .intro {
   text-align: center;
   margin:40px;
@@ -176,4 +178,22 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("
   color: #001219;
   text-shadow: none;
   font-size: 40px;
+}
+
+/* Introduction page CSS KS April 6*/
+.problemintro { 
+  padding: 50px;
+  width: 80%
+}
+
+.probk { 
+  color: #9B2226;
+  text-align: left;
+}
+
+.para { 
+  padding: 25px;
+  color: #005F73;
+  margin-left: 10px;
+  line-height: 25px;
 }
