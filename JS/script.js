@@ -29,7 +29,7 @@ function topFunction() {
 // ks april 14 
 
 var slider_img = document.querySelector('.slider-img');
-var images = [ 'S1_1', 'S1_2'];
+var images = [ 'S1_1.jpg', 'S1_2.jpg'];
 var i = 0;
 
 function prev(){
