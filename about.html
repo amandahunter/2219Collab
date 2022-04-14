@@ -1,31 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="JS/script.js"></script>
-    <title>WebFoxtrot</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-     <!-- Navbar set up - Last Updated on April 4 2022- by KS and BC - adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+      <link rel="stylesheet" href="CSS/style.css">
+      <script src="JS/script.js" defer></script>
+      <title>WebFoxtrot</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  </head>
+  <body>
+      <!-- Navbar set up - Last Updated on April 4 2022- by KS and BC - adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
     <header class="header">
         <div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
+            <a href="index.html" >Home</a>
+            <!-- Add a drop down to our nav bar for the project section - by KS & BC - On April 5 2022 - Adapted from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+            <div class="dropdown">
+                <button class="dropbtn">Project
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="Project.html">Project</a> <!--currently set to link to the section on 1 page can change to diff pages if needed - BC -->
+                  <a href="Project.html#paragraph2">Method</a>
+                  <a href="Project.html#paragraph3">Solution</a>
+                </div>
+              </div>
             <a href="about.html" class="active">About Us</a>
-            <a href="contact.html">Contact</a>
-            <a href="Project.html">Project</a>
+            <a href="contact.html">Contact </a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
             </a>
         </div>
-          <div style="padding-left:16px">
-        </div>
     </header>
+    <!-- Button to scroll back to top of page - BC-->
+    <button onclick="topFunction()" id="topBtn" title="Back to top">Top</button>
+    <!-- Hero Image - BC -->
     <div class="hero-image" id="home">
         <div class="hero-text">
             <h1>WebFoxtrot</h1>
             <p>blurb here</p>
         </div>
     </div>
-</body>
+    <section id="about-header">
+      <h1>Meet The Team</h1>
+      <p> The WebFoxtrot Team is a diverse group of individuals all with a shared
+        passion for GIS. Each member is dedicated to collaborating on meaningful 
+        projects where they can use their vibrant skills in GIS and many other fields
+        to create meaningful web solutions. To learn more about the members of WebFoxtrot
+        checkout their portfolios bellow.   
+      </p>
+    </section>
+    <!-- Image overlay of each team member - BC - Image overlay adapted from https://www.w3schools.com/howto/howto_css_image_overlay.asp -->
+    <section id="about-container" class="flex-container">
+      <div class="flex-child Kathleen"> 
+        <img src="Images/AboutUs/Person.png" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">Kathleen Soodhoo<br>About Kathleen<br>text here</div>
+        </div>
+      </div>
+      <div class="flex-child Steph"> 
+        <img src="Images/AboutUs/Person.png" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">Stephanie Scane<br>About Steph<br>text here</div>
+        </div>
+      </div>
+      <div class="flex-child Becca"> 
+        <img src="Images/AboutUs/Person.png" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">Becca Carmichael<br>About Becca<br>text here</div>
+        </div>
+      </div>
+      <div class="flex-child Amanda"> 
+        <img src="Images/AboutUs/Person.png" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">Amanda Hunter<br>About Amanda<br>text here</div>
+        </div>
+      </div>
+    </section> 
+    <!-- Footer BC -->
+    <footer>
+      <p>WebFoxtrot</p>
+    </footer>
+  </body>
+</html>
