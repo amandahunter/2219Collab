@@ -5,6 +5,8 @@
 body{
     margin: 20;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
   }
 
   /* Navbar - Last Update April 6 2022 by KS and BC */ 
@@ -98,8 +100,6 @@ body{
 }
 /*End of Navbar*/ 
 
-
-
 /* Hero Image - Last Update April 5 - By BC*/
 /*This sets up the height of the whole page*/   
 body, html {
@@ -137,11 +137,13 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("
 }
 /* end of the Banner CSS */ 
 /* Footer - Last Updated April 5 - BC */ 
-.footer {
-  position: fixed;
+footer {
+  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
+  padding: 2px 0px;
+  margin: 8px 0px;
   background-color: #005F73;
   color: white;
   text-align: center;
@@ -181,7 +183,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("
 }
 
 /* Introduction page CSS KS April 6*/
-.problemintro { 
+.problem-intro { 
   padding: 50px;
   width: 80%
 }
@@ -196,4 +198,89 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("
   color: #005F73;
   margin-left: 10px;
   line-height: 25px;
+}
+/* About us image overlay */ 
+.flex-container {
+  position: relative;
+  width: 95%;
+  margin: auto;
+  display: flex;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #BB3E03;
+}
+
+.flex-child:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.flex-child {
+  position: relative;
+  flex: 1;
+  width: 100%;
+}  
+
+#about-header {
+  margin-left: 30px;
+}
+/* About us Form */ 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #BB3e03;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #BB3e03;
+}
+#contact-header {
+  margin-left: 90px;
+}
+#contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 40px 95px 40px 90px;
+}
+
+#project-page {
+  margin: 25px 40px;
 }

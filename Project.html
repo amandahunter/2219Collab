@@ -1,91 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="JS/script.js" defer></script>
-    <title>WebFoxtrot</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-    <!-- Navbar set up - Last Updated on April 4 2022- by KS and BC - adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-    <header class="header">
-        <div class="topnav" id="myTopnav">
-            <a href="index.html" >Home</a>
-            <!-- Add a drop down to our nav bar for the project section - by KS & BC - On April 5 2022 - Adapted from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
-            <div class="dropdown active" >
-                <button class="dropbtn">Project
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="Project.html">Project</a> <!--currently set to link to the section on 1 page can change to diff pages if needed - BC -->
-                  <a href="Project.html#paragraph2">Method</a>
-                  <a href="Project.html#paragraph3">Solution</a>
+    <head>
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="JS/script.js" defer></script>
+        <title>WebFoxtrot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <body>
+        <!-- Navbar set up - Last Updated on April 4 2022- by KS and BC - adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+        <header class="header">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" >Home</a>
+                <!-- Add a drop down to our nav bar for the project section - by KS & BC - On April 5 2022 - Adapted from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+                <div class="dropdown active" >
+                    <button class="dropbtn">Project
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                    <a href="Project.html">Project</a> <!--currently set to link to the section on 1 page can change to diff pages if needed - BC -->
+                    <a href="Project.html#paragraph2">Method</a>
+                    <a href="Project.html#paragraph3">Solution</a>
+                    </div>
                 </div>
-              </div>
-            <a href="about.html">About Us</a>
-            <a href="contact.html">Contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <!-- Button to scroll back to top of page - BC-->
+        <button onclick="topFunction()" id="topBtn" title="Back to top">Top</button>
+        <!-- Hero Image - BC -->
+        <div class="hero-image" id="home">
+            <div class="hero-text">
+                <h1>WebFoxtrot</h1>
+                <p>blurb here</p>
+            </div>
         </div>
-    </header>
-    <!-- Button to scroll back to top of page - BC-->
-    <button onclick="topFunction()" id="topBtn" title="Back to top">Top</button>
-    <!-- Hero Image - BC -->
-    <div class="hero-image" id="home">
-        <div class="hero-text">
-            <h1>WebFoxtrot</h1>
-            <p>blurb here</p>
-        </div>
-    </div>
-    <!-- Footer BC -->
-    <div class="footer">
-        <p>WebFoxtrot</p>
-    </div>
-    <section id="paragraph1" class="big-headings">
-       <h1>Project</h1>
-       <h2> Text and other stuff here.Text and other stuff here.Text and other stuff 
-           here.Text and other stuff here.Text and other stuff here.Text and other 
-           stuff here.Text and other stuff here.Text and other stuff here.Text and 
-           other stuff here.Text and other stuff here.Text and other stuff here.Text 
-           and other stuff here.Text and other stuff here.Text and other stuff here.
-           Text and other stuff here.Text and other stuff here.Text and other stuff 
-           here.Text and other stuff here.Text and other stuff here.Text and other 
-           stuff here.Text and other stuff here.Text and other stuff here.Text and
-            other stuff here.Text and other stuff here.Text and other stuff here.
-            Text and other stuff here.Text and other stuff here.Text and other stuff
-             here.Text and other stuff here. 
-       </h2>
-    </section>
-    <section id="paragraph2" class="big-headings">
-        <h1>Method</h1>
-        <h2> Text and other stuff here.Text and other stuff here.Text and other stuff 
-            here.Text and other stuff here.Text and other stuff here.Text and other 
-            stuff here.Text and other stuff here.Text and other stuff here.Text and 
-            other stuff here.Text and other stuff here.Text and other stuff here.Text 
-            and other stuff here.Text and other stuff here.Text and other stuff here.
-            Text and other stuff here.Text and other stuff here.Text and other stuff 
-            here.Text and other stuff here.Text and other stuff here.Text and other 
-            stuff here.Text and other stuff here.Text and other stuff here.Text and
-             other stuff here.Text and other stuff here.Text and other stuff here.
-             Text and other stuff here.Text and other stuff here.Text and other stuff
-              here.Text and other stuff here. 
-        </h2>      
-    </section>
-    <section id="paragraph3" class="big-headings">
-        <h1>Solution</h1>
-        <h2> Text and other stuff here.Text and other stuff here.Text and other stuff 
-            here.Text and other stuff here.Text and other stuff here.Text and other 
-            stuff here.Text and other stuff here.Text and other stuff here.Text and 
-            other stuff here.Text and other stuff here.Text and other stuff here.Text 
-            and other stuff here.Text and other stuff here.Text and other stuff here.
-            Text and other stuff here.Text and other stuff here.Text and other stuff 
-            here.Text and other stuff here.Text and other stuff here.Text and other 
-            stuff here.Text and other stuff here.Text and other stuff here.Text and
-             other stuff here.Text and other stuff here.Text and other stuff here.
-             Text and other stuff here.Text and other stuff here.Text and other stuff
-              here.Text and other stuff here. 
-        </h2>
-    </section>   
-</body>
+        <main id="project-page">
+            <section id="paragraph1" class="big-headings">
+                <h1>Problem Statement</h1>
+                <h3> A summary of the statement here </h3>
+                <h2>Ideal</h2>
+                <p>Providing the general public of Ontario access to water quality monitoring 
+                    data from the Provincial(Stream) Water Quality Monitoring Network. This would be of 
+                    benefit as it increases interest in water quality and encourages actions to improve 
+                    environmental conditions.  Encourage participation in water security initiatives whether 
+                    that be legislative or environmental rebate programs for home and community improvements. </p>
+                <h2>Reality</h2>
+                <p>A well designed map and hub for accessing this location does not currently exist for 
+                    Ontarians. People may be unaware of why they should care about the water quality in 
+                    their area or unsure of their own agency in this topic. </p>
+                <h2>Consequences</h2>
+                <p>The lack of accessibility to this data would cause people to continue to be uneducated 
+                    about existing water quality monitoring programs. This may lead to them feeling detached 
+                    from water security initiatives.</p>
+                <h2>Proposal</h2> 
+                <p>An ESRI dashboard will be created to display the Provincial(Stream) Water Quality Monitoring 
+                    Data for Ontario, specifically the water monitoring station locations and the 2021 data for 
+                    those stations. It will come from the governments open data portal. The dashboard will include
+                    a well designed interactive map as well as display a summarization of 5 major water quality 
+                    monitoring variables.  A story map will also be created to describe the process of creating the 
+                    dashboard as well as general information about this specific water quality monitoring program. 
+                    This storymap will allow the public to feel more involved in the creation process to foster a 
+                    better understanding of how the program works, it's benefits to their lives and how they can be 
+                    involved with water security issues.</p>
+                <h1>The Teams Journey</h1>
+                <h2>Data Collection</h2>
+                <p>Stuff about Data collection</p> 
+            </section>
+            <section id="paragraph2" class="big-headings">
+                <h1>Method</h1>
+                <h2>Part One</h2> 
+                <h2>Part Two</h2>     
+            </section>
+            <section id="paragraph3" class="big-headings">
+                <h1>Solution</h1>
+                <h2> Text and other stuff here.Text and other stuff here.Text and other stuff 
+                    here.Text and other stuff here.Text and other stuff here.Text and other 
+                    stuff here.Text and other stuff here.Text and other stuff here.Text and 
+                    other stuff here.Text and other stuff here.Text and other stuff here.Text 
+                    and other stuff here.Text and other stuff here.Text and other stuff here.
+                    Text and other stuff here.Text and other stuff here.Text and other stuff 
+                    here.Text and other stuff here.Text and other stuff here.Text and other 
+                    stuff here.Text and other stuff here.Text and other stuff here.Text and
+                    other stuff here.Text and other stuff here.Text and other stuff here.
+                    Text and other stuff here.Text and other stuff here.Text and other stuff
+                    here.Text and other stuff here. 
+                </h2>
+            </section> 
+        </main>
+        <!-- Footer BC -->
+        <footer>
+            <p>WebFoxtrot</p>
+        </footer>  
+    </body>
+</html>
