@@ -24,3 +24,27 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+// ks april 14 
+
+var slider_img = document.querySelector('.slider-img');
+var images = [ 'S1_1.jpg', 'S1_2.jpg'];
+var i = 0;
+
+function prev(){
+	if(i <= 0) i = images.length;	
+	i--;
+	return setImg();			 
+}
+
+function next(){
+	if(i >= images.length-1) i = -1;
+	i++;
+	return setImg();			 
+}
+
+function setImg(){
+	return slider_img.setAttribute('src', "Images/"+images[i]);
+	
+}

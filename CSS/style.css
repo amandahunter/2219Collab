@@ -269,3 +269,30 @@ input[type=submit]:hover {
 #project-page {
   margin: 25px 40px;
 }
+
+/* Ks slider  */
+.slider{
+	margin:50px auto;
+	width:50%;
+}
+ 
+.img-box img{
+	width:100%;
+}
+
+.btn{
+	border:none;
+	outline:none;
+	background:#C7CEDB;
+	padding:10px 30px;
+	font-size: 20px;
+	color:#303A4A;
+	cursor: pointer;
+	margin:20px auto;
+    margin-left:160px;
+    		 
+}
+
+.btn:hover{
+	background: #111;
+}
