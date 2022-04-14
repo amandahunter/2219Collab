@@ -57,7 +57,7 @@ body{
       text-align: left;
     }
   }
-/* settings for the dropdown for Projects - KS & BC */ 
+/* settings for the dropdown for Projects in the navbar- KS & BC */ 
 .dropdown {
   float: left;
   overflow: hidden;
@@ -98,8 +98,6 @@ body{
 .show {
   display: block;
 }
-/*End of Navbar*/ 
-
 /* Hero Image - Last Update April 5 - By BC*/
 /*This sets up the height of the whole page*/   
 body, html {
@@ -135,7 +133,6 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("
   font-size: 20pt;
 }
 }
-/* end of the Banner CSS */ 
 /* Footer - Last Updated April 5 - BC */ 
 footer {
   position: sticky;
@@ -147,9 +144,8 @@ footer {
   background-color: #005F73;
   color: white;
   text-align: center;
-}
-/* end of footer */ 
-/* Top Button */ 
+} 
+/* Scroll to the Top Button */ 
 #topBtn {
   display: none;
   position: fixed;
@@ -168,8 +164,6 @@ footer {
 #topBtn:hover {
   background-color: #BB3E03;
 }
-/* end of Top Button*/ 
-
 /* HOME PAGE - BC */
 .intro {
   text-align: center;
@@ -181,18 +175,15 @@ footer {
   text-shadow: none;
   font-size: 40px;
 }
-
 /* Introduction page CSS KS April 6*/
 .problem-intro { 
   padding: 50px;
   width: 80%
 }
-
 .probk { 
   color: #9B2226;
   text-align: left;
 }
-
 .para { 
   padding: 25px;
   color: #005F73;
@@ -206,13 +197,11 @@ footer {
   margin: auto;
   display: flex;
 }
-
 .image {
   display: block;
   width: 100%;
   height: auto;
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -222,11 +211,9 @@ footer {
   transition: .5s ease;
   background-color: #BB3E03;
 }
-
 .flex-child:hover .overlay {
   opacity: 1;
 }
-
 .text {
   color: white;
   font-size: 20px;
@@ -238,17 +225,15 @@ footer {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
 .flex-child {
   position: relative;
   flex: 1;
   width: 100%;
 }  
-
 #about-header {
   margin-left: 30px;
 }
-/* About us Form */ 
+/* Contact Us Form */ 
 input[type=text], select, textarea {
   width: 100%;
   padding: 20px;
@@ -280,7 +265,7 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 40px 95px 40px 90px;
 }
-
+/* Project page margins*/
 #project-page {
   margin: 25px 40px;
 }
