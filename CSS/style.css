@@ -7,6 +7,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     height: 100%;
+    background-color: #DEEAEC;
   }
 
   /* Navbar - Last Update April 6 2022 by KS and BC */ 
@@ -171,26 +172,42 @@ footer {
   padding: 10px;
 }
 .big-headings h1 {
-  color: #001219;
+  /* color: #001219; I took this out cause it kept overwriting my headings -ks */
   text-shadow: none;
   font-size: 40px;
 }
-/* Introduction page CSS KS April 6*/
+/* Introduction page CSS KS April 6 last edited april 17*/
 .problem-intro { 
   padding: 50px;
   width: 80%
 }
-.probk { 
+.probl { 
   color: #9B2226;
   text-align: left;
+
 }
+ 
 .para { 
-  padding: 25px;
+  
   color: #005F73;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   line-height: 25px;
+  max-width:60%;
+  float:left;
 }
-/* About us image overlay */ 
+
+.para1 {
+
+  color: #005F73;
+  /* margin-left: 10px; */
+  line-height: 25px;
+  max-width:60%;
+}
+
+.intromap {
+  margin-left: 50px;
+}
+/* About us image overlay BC April 16 */ 
 .flex-container {
   position: relative;
   width: 95%;
