@@ -99,12 +99,31 @@
 
 
                   <div> 
-                    <h2> Step Two :Dashboard</h2>
+                    <h2> Step Two:Dashboard</h2>
                     <p> As the StoryMap will be doing the job of giving background information on water quality monitoring issues, 
                         and this program in particular the intended focus of the Dashboard was conveying information about data collected 
-                        at individual stations. 
-                    </p> 
-                    
+                        at individual stations. The class of widgets used can be split into dynamic vs static. 
+                    </p>  
+                    <h3>Static</h3>
+                    <p> The static elements are the indicator that shows the number of stations and number of years that the program has been running (a)
+                        and a reference to recommended water levels (b). The numerical references use Arcade scripting, this way if records are added 
+                        to the dataset it can be updated automatically (c).
+                    </p>
+                    <img src = 'Images/static_elements.jpg'class = staticE>
+                    <img src = 'Images/static_1.jpg' class = static1>
+
+                    <h3>Dynamic</h3>
+                    <p> The dynamic elements of the map change once the end user chooses a station. It will then tell them how many years 
+                        the station has been active, what types of collection has happened there and finally the data table of results
+                    </p>
+                    <p> The Dashboard functionality that was used to make this happen was using layer actions. Layer actions allow you to choose 
+                        widgets on the Dashboard to be targeted in different ways when a selection is made. The map was the main layer that was configured 
+                        and the indicator, pie chart and data table were the targets. 
+                    </p>
+                    <img src = 'Images/dynamic_elements.jpg' class = staticE>
+                    <img src = 'Images/dynamic_1.jpg' class = static1>
+
+
                 </div>
 
 

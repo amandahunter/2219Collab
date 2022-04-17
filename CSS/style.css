@@ -313,3 +313,14 @@ input[type=submit]:hover {
 .btn:hover{
 	background: #111;
 }
+
+/* KS methodology static paragraph april 17 */
+
+.staticE {
+  margin-left:100px;
+  max-width:40%
+}
+ .static1 {
+   max-width:20%;
+   padding:40px;
+ }
