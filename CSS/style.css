@@ -382,14 +382,14 @@ li {
 }
 
 .pdash1 {
-  max-width:40%;
-  float:left;
+  width:40%;
+  padding-bottom:10px;
+ 
   
 }
 
 
-
-#s2 {
+.pdash2 {
+  float:right;
   width:40%;
-
 }
