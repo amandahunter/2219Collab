@@ -67,22 +67,28 @@
                     This storymap will allow the public to feel more involved in the creation process to foster a 
                     better understanding of how the program works, it's benefits to their lives and how they can be 
                     involved with water security issues.</p>
-                <h1>The Team's Journey</h1>
-                <h2>Data Collection</h2>
-                <p>Stuff about Data collection</p> 
+                <h1  class = bigP>The Team's Journey</h1>
+                <!-- <h2>Data Collection</h2>
+                <p>Stuff about Data collection</p>  -->
             </section>
             <section id="paragraph2" class="big-headings">
             <!-- Methodology Dashboard last updated KS 14/04/2022 -->
-                <h1>Method</h1>
+                <!-- <h1 >Methodology</h1> -->
+            <div>
                 <h2>Phase One: Dashboard</h2> 
-                <div> 
-                    <h2> Step One:Data Prep </h2>
-                    <ol>
-                        <li> Data was downloaded from Ontario's Open data portal</li>
-                        <li> The collection data had no data location attached so it was joined 
-                             to the shp file of stations to be mapped 
+                <div > 
+                    <h3 class =steps> Step One: Data Prep </h2>
+                    <ol class = pDash>
+                        <li> Data was downloaded from Ontario's Open data portal. The data sets chosen were:  one shp file 
+                             that showed all of the stations, both active and inactive, and one excel file with collection data for 2020
                         </li>
-                        <li> Map was created in ArcGIS Online to show the data </li>
+                        <li> The collection dataset had no data location attached so it was joined to the shp file of stations. After this was done 
+                            the XY Table to point tool was used so it could be mapped. Then a set of a parameters that we wished to 
+                            represent were selected to create a new feature layer. The parameters selected were: Dissolved oxygen,
+                             PH, water temperature, nitrogen, phosphate and e. coli.
+                        </li>
+                        <li> This layer with station location and collection data for our selected parameters was exported to ArcGIS Online 
+                            and a map was created to be embedded in the dashboard </li>
                     </ol>
                 </div>
 
@@ -96,21 +102,25 @@
                   </div>
                 
                   <!-- <script src="app.js"></script> -->
+            </div>
 
-
-                  <div> 
-                    <h2> Step Two:Dashboard</h2>
+                 
+                    <h3> Step Two: Dashboard</h3>
                     <p> As the StoryMap will be doing the job of giving background information on water quality monitoring issues, 
                         and this program in particular the intended focus of the Dashboard was conveying information about data collected 
                         at individual stations. The class of widgets used can be split into dynamic vs static. 
                     </p>  
-                    <h3>Static</h3>
-                    <p> The static elements are the indicator that shows the number of stations and number of years that the program has been running (a)
+                    <div>
+                    <div class = static>
+                    <h4>Static</h4>
+                    <p class = pdash1 > The static elements are the indicator that shows the number of stations and number of years that the program has been running (a)
                         and a reference to recommended water levels (b). The numerical references use Arcade scripting, this way if records are added 
                         to the dataset it can be updated automatically (c).
                     </p>
+
+                    </div>
                     <!-- SLIDER FOR STATIC IMAGES  -->
-                    <div class="slider">
+                    <div class="slider" id =s2>
                         <div class="img-box">
                           <img src="Images/static_elements.jpg" class="static-img">
                         </div>
@@ -118,21 +128,21 @@
                         <button class="btn1" onclick="prev1()">Prev</button>
                         <button class="btn1" onclick="next1()">Next</button>
                       </div>
+                    </div>
                     
                       <!-- <script src="app.js"></script> -->
-
-                    <h3>Dynamic</h3>
-                    <p> The dynamic elements of the map change once the end user chooses a station. It will then tell them how many years 
+                    <div class = dynamic>
+                    <h4>Dynamic</h4>
+                    <p class = pdash1> The dynamic elements of the map change once the end user chooses a station. It will then tell them how many years 
                         the station has been active, what types of collection has happened there and finally the data table of results
-                    </p>
-                    <p> The Dashboard functionality that was used to make this happen was using layer actions. Layer actions allow you to choose 
+                        The Dashboard functionality that was used to make this happen was using layer actions. Layer actions allow you to choose 
                         widgets on the Dashboard to be targeted in different ways when a selection is made. The map was the main layer that was configured 
                         and the indicator, pie chart and data table were the targets. 
                     </p>
 
                     <!-- SLIDER FOR STATIC IMAGES-->
 
-                    <div class="slider">
+                    <div class="slider" id = s2>
                         <div class="img-box">
                           <img src="Images/dynamic_elements.jpg" class="dynamic-img">
                         </div>
@@ -144,10 +154,10 @@
                       <!-- <script src="app.js"></script> -->
                     <!-- <img src = 'Images/dynamic_elements.jpg' class = staticE>
                     <img src = 'Images/dynamic_1.jpg' class = static1> -->
-
-
+                </div>
                 </div>
 
+                
 
                 <h2>Phase Two: Story Map</h2> 
                 <div>

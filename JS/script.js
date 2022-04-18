@@ -96,3 +96,4 @@ function setImg2(){
 	return slider_image2.setAttribute('src', "Images/"+img2[l]);
 	
 }
+
