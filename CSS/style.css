@@ -178,7 +178,7 @@ footer {
 }
 /* Introduction page CSS KS April 6 last edited april 17*/
 .problem-intro { 
-  padding: 50px;
+  /* padding: 50px; */
   width: 80%
 }
 .probl { 
@@ -192,7 +192,7 @@ footer {
   color: #005F73;
   /* margin-left: 10px; */
   line-height: 25px;
-  max-width:60%;
+  max-width:100%;
   float:left;
 }
 
@@ -201,12 +201,22 @@ footer {
   color: #005F73;
   /* margin-left: 10px; */
   line-height: 25px;
-  max-width:60%;
+  max-width:100%;
 }
 
 .intromap {
-  margin-left: 50px;
+  /* margin-left: 25px; */
 }
+
+.tech {
+  padding-bottom: 100px;
+  
+}
+
+.question {
+  padding-bottom: 100px;
+}
+
 /* About us image overlay BC April 16 */ 
 .flex-container {
   position: relative;
