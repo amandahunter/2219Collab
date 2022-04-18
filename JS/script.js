@@ -58,16 +58,16 @@ var k = 0;
 function prev1(){
 	if(k <= 0) k = images1.length;	
 	k--;
-	return setImg();			 
+	return setImg1();			 
 }
 
 function next1(){
 	if(k >= images1.length-1) k = -1;
 	k++;
-	return setImg();			 
+	return setImg1();			 
 }
 
-function setImg(){
+function setImg1(){
 	return slider_img1.setAttribute('src', "Images/"+images1[k]);
 	
 }
@@ -83,16 +83,16 @@ var l = 0;
 function prev2(){
 	if(l <= 0) l= img2.length;	
 	l--;
-	return setImg();			 
+	return setImg2();			 
 }
 
 function next2(){
 	if(l >= img2.length-1) l = -1;
 	l++;
-	return setImg();			 
+	return setImg2();			 
 }
 
-function setImg(){
+function setImg2(){
 	return slider_image2.setAttribute('src', "Images/"+img2[l]);
 	
 }
