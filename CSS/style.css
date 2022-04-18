@@ -310,9 +310,28 @@ input[type=submit]:hover {
     		 
 }
 
+.btn1 {
+
+  border:none;
+	outline:none;
+	background:#C7CEDB;
+	padding:10px 30px;
+	font-size: 20px;
+	color:#303A4A;
+	cursor: pointer;
+	margin:20px auto;
+    margin-left:160px;
+}
+
 .btn:hover{
 	background: #111;
 }
+
+
+.btn1:hover{
+	background: #111;
+}
+
 
 /* KS methodology static paragraph april 17 */
 

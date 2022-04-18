@@ -48,3 +48,51 @@ function setImg(){
 	return slider_img.setAttribute('src', "Images/"+images[i]);
 	
 }
+
+// ks april 17 slider 2 & 3 
+
+var slider_img1 = document.querySelector('.static-img');
+var images1 = [ 'static_elements.jpg', 'static_1.jpg'];
+var k = 0;
+
+function prev1(){
+	if(k <= 0) k = images1.length;	
+	k--;
+	return setImg();			 
+}
+
+function next1(){
+	if(k >= images1.length-1) k = -1;
+	k++;
+	return setImg();			 
+}
+
+function setImg(){
+	return slider_img1.setAttribute('src', "Images/"+images1[k]);
+	
+}
+
+
+
+// 2 ks
+
+var slider_image2 = document.querySelector('.dynamic-img');
+var img2 = [ 'dynamic_elements.jpg', 'dynamic_1.jpg'];
+var l = 0;
+
+function prev2(){
+	if(l <= 0) l= img2.length;	
+	l--;
+	return setImg();			 
+}
+
+function next2(){
+	if(l >= img2.length-1) l = -1;
+	l++;
+	return setImg();			 
+}
+
+function setImg(){
+	return slider_image2.setAttribute('src', "Images/"+img2[l]);
+	
+}
