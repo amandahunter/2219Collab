@@ -449,4 +449,7 @@ li {
 
 
 /*div styling projects page for clarity*/
-
+.phase1 {
+  background-color:#E8F5F1 ;
+  padding:5px;
+}
