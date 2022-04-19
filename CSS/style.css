@@ -228,12 +228,16 @@ h4 {
 
 .prettybox {
   background-color:#005F73;
-  color: powderblue;
+  color: white;
+  padding-left: 5px;
+  padding-right:5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border: 2px solid black;
-  margin: 50px;
+  margin: 100px;
   line-height: 25px;
   max-width:100%;
-  font-size:30px;
+  font-size:20px;
 }
 
 .para1 {
