@@ -73,8 +73,6 @@
             </section>
             <section id="paragraph2" class="big-headings">
             <!-- Methodology Dashboard last updated KS 14/04/2022 -->
-                <!-- <h1 >Methodology</h1> -->
-            <div>
                 <h2>Phase One: Dashboard</h2> 
                 <div > 
                     <h3 class =steps> Step One: Data Prep </h2>
@@ -104,7 +102,7 @@
                   <!-- <script src="app.js"></script> -->
             </div>
 
-              
+<!-- step two of phase one, 2 text and 2 sliders KS last edited april 19 -->            
                     <h3> Step Two: Dashboard</h3>
                     <p> As the StoryMap will be doing the job of giving background information on water quality monitoring issues, 
                         and this program in particular the intended focus of the Dashboard was conveying information about data collected 
@@ -113,9 +111,10 @@
                    
                     <div class = static>
                     <h4>Static</h4>
-                    <p class = pdash1 > Static: The static elements are the indicator that shows the number of stations and number of years that the program has been running (a)
-                        and a reference to recommended water levels (b). The numerical references use Arcade scripting, this way if records are added 
-                        to the dataset it can be updated automatically (c).
+                    <p class = pdash1 > Static: The static elements are an indicator that shows the number of stations and number of years that 
+                        the program has been running (a)and a reference to recommended water levels (b). The indicator is a ready-to-use widget option 
+                        within the Dashboard enviornment.The numerical references use Arcade scripting, this way if records are added 
+                        to the dataset it can be updated automatically (c). The water level data was added in using the rich text widget. 
                     </p>
                     </div>
 
@@ -139,7 +138,8 @@
                         the station has been active, what types of collection has happened there and finally the data table of results
                         The Dashboard functionality that was used to make this happen was using layer actions. Layer actions allow you to choose 
                         widgets on the Dashboard to be targeted in different ways when a selection is made. The map was the main layer that was configured 
-                        and the indicator, pie chart and data table were the targets. 
+                        and the indicator, pie chart and data table were the targets. When a station is chosen the data is filtered and the targets show the 
+                        corresponding data. 
                     </p>
 
                     <!-- SLIDER FOR STATIC IMAGES-->
@@ -153,11 +153,15 @@
                         <button class="btn" onclick="prev2()">Prev</button>
                         <button class="btn" onclick="next2()">Next</button>
                       </div>
-                    
+                      
+<!-- dicoveries and limitations for the dashboard section KS april 19-->
                 <h3> Discoveries and Limitations</h3>   
                 <p> ArcGIS Dashboards gave us the ability to display the map alongside key data points that we thought fit into the overall 
                     theme. Integrating the map was simple as it was created in ArcGIS Online so it was readily available as a widget item to be 
-                    added into the map. The other widgets were also easy enough to add to the layout and move around to suit our needs 
+                    added into the map. The other widgets were also easy enough to add to the layout and move around to suit our needs. The ease of
+                    making configurations came at the expense of certain customizations. For example the header does not allow you to chose the text position, 
+                    since we wanted it central we used the rich text option, but this mean in order to have the link out to the storymap and source data we still 
+                    needed to have the header in there. 
                 </p>
 
                 <p> 
@@ -168,9 +172,7 @@
                     instead first had to click the selection tool and then make their selection. We tried to remedy this by including instructions plus a 
                     picture of the select tool below the map, but it's acknowledged that it isn't the most intuitive user interface. 
                 </p>
-                <p>
-                    The other major limitation was in how you could manipulate the data before it 
-                </p>
+               
                 
                
 
