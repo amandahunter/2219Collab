@@ -178,10 +178,17 @@ footer {
   font-size: 40px;
 }
 
+h1 {
+  font-size:60px;
+}
+
 h1,h2 {
   text-align:center;
   padding-bottom:20px;
   padding-top:70px;
+}
+h1 {
+  font-size:60px;
 }
 
 h2 {
@@ -193,11 +200,13 @@ h3 {
  font-size:30px;
  color: #AE2012;
  text-align:center;
+ padding-top:20px;;
 }
 
 h4 {
   font-size:25px;
   color: #BB3E03;
+  text-align:center;
 }
 /* Introduction page CSS KS April 6, april 17, added additional style classes april 19 ah*/
 .problem-intro { 
@@ -368,7 +377,7 @@ input[type=submit]:hover {
 
 .slider2 {
   width:50%;
-  margin-left:300px;
+  margin-left:350px;
 }
  
 .img-box img{
@@ -378,10 +387,10 @@ input[type=submit]:hover {
 .btn{
 	border:none;
 	outline:none;
-	background:#C7CEDB;
+	background:#D8EFE7;
 	padding:10px 30px;
 	font-size: 20px;
-	color:#303A4A;
+	color:#71140C;
 	cursor: pointer;
 	margin:20px auto;
     margin-left:160px;
@@ -392,10 +401,10 @@ input[type=submit]:hover {
 
   border:none;
 	outline:none;
-	background:#C7CEDB;
+	background:#D8EFE7;
 	padding:10px 30px;
 	font-size: 20px;
-	color:#303A4A;
+	color:#71140C;
 	cursor: pointer;
 	margin:20px auto;
     margin-left:160px;
@@ -422,6 +431,7 @@ input[type=submit]:hover {
    max-width:20%;
    padding:40px;
  }
+
 
  /*Project page KS*/ 
 
