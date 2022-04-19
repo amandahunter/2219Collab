@@ -179,19 +179,24 @@ footer {
 
 h1,h2 {
   text-align:center;
-  padding-bottom:30px;
+  padding-bottom:20px;
+  padding-top:70px;
 }
 
 h2 {
   font-size:35px;
+  color: #9B2226;
 }
 
 h3 {
  font-size:30px;
+ color: #AE2012;
+ text-align:center;
 }
 
 h4 {
   font-size:25px;
+  color: #BB3E03;
 }
 /* Introduction page CSS KS April 6, april 17, added additional style classes april 19 ah*/
 .problem-intro { 
@@ -406,13 +411,33 @@ input[type=submit]:hover {
   float:right;
   /* margin-right:150px; */
   margin-top:100px;
+  background-color: #E8F5F1;
 }
 
 li {
   padding:20px;
 }
 
+/*methodology KS april 19*/
+.methodology {
+  max-width:50%;
+  font-size: 20px;
+  margin-left:375px;
+  text-align: center;
+}
 
+/* table for problem statement ks &bc april 19*/
+.theading {
+  padding:50px;
+  font-weight:bold;
+  font-size:25px;
+  color: #005F73;
+}
+
+.texp {
+  color:#581316;
+  font-weight:bold;
+}
 
 
 
@@ -425,4 +450,7 @@ li {
   margin-left:100px;
   margin-top:100px;
 }
+
+
+/*div styling projects page for clarity*/
 
