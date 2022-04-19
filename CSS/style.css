@@ -337,6 +337,24 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 40px 95px 40px 90px;
 }
+
+/*image styles April 19 AH*/
+.imageright {
+  float:right;
+}
+
+.imageleft {
+  float:right;
+}
+
+.imagecentre { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
 /* Project page margins*/
 #project-page {
   margin: 25px 40px;
@@ -448,7 +466,7 @@ li {
 .story1 {
   max-width:40%;
   float:right;
-  margin-left:100px;
+  margin-left:50px;
   margin-top:100px;
 }
 
