@@ -203,7 +203,15 @@ h4 {
   text-align: left;
 
 }
- 
+
+.paramargin { 
+  
+  color: #005F73;
+  margin: 20px;
+  line-height: 25px;
+  max-width:100%;
+  float:left;
+}
 .para { 
   
   color: #005F73;
