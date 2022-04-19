@@ -97,3 +97,25 @@ function setImg2(){
 	
 }
 
+// steph's slider 
+
+var slider_image3 = document.querySelector('.storymap-img');
+var img3 = [ 'WhoWater.png', 'HowWater.png', 'WhatWater.png', 'WhereWater.png', 'WhyWater.png'];
+var m = 0;
+
+function prev3(){
+	if(m <= 0) m= img3.length;	
+	l--;
+	return setImg3();			 
+}
+
+function next3(){
+	if(m >= img3.length-1) m = -1;
+	m++;
+	return setImg3();			 
+}
+
+function setImg3(){
+	return slider_image3.setAttribute('src', "Images/"+img3[m]);
+	
+}
