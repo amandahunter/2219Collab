@@ -110,71 +110,69 @@
                     </p>  
                    
                     <div class = static>
-                    <h4>Static</h4>
-                    <p class = pdash1 > Static: The static elements are an indicator that shows the number of stations and number of years that 
-                        the program has been running (a)and a reference to recommended water levels (b). The indicator is a ready-to-use widget option 
-                        within the Dashboard enviornment.The numerical references use Arcade scripting, this way if records are added 
-                        to the dataset it can be updated automatically (c). The water level data was added in using the rich text widget. 
-                    </p>
-                    </div>
-
-
-                    
-                    <!-- SLIDER FOR STATIC IMAGES  -->
-                    <div class="slider" id =s2>
-                        <div class="img-box">
-                          <img src="Images/static_elements.jpg" class="static-img">
+                        <h4>Static</h4>
+                        <p class = pdash1 >The static elements are an indicator that shows the number of stations and number of years that 
+                            the program has been running (a)and a reference to recommended water levels (b). The indicator is a ready-to-use widget option 
+                            within the Dashboard enviornment.The numerical references use Arcade scripting, this way if records are added 
+                            to the dataset it can be updated automatically (c). The water level data was added in using the rich text widget. 
+                        </p>
                         </div>
-                    
-                        <button class="btn1" onclick="prev1()">Prev</button>
-                        <button class="btn1" onclick="next1()">Next</button>
-                      </div>
-                    </div>
-                    
-                      <!-- <script src="app.js"></script> -->
-                    <div class = dynamic>
-                    <h4>Dynamic</h4>
-                    <p class = pdash1> The dynamic elements of the map change once the end user chooses a station. It will then tell them how many years 
-                        the station has been active, what types of collection has happened there and finally the data table of results
-                        The Dashboard functionality that was used to make this happen was using layer actions. Layer actions allow you to choose 
-                        widgets on the Dashboard to be targeted in different ways when a selection is made. The map was the main layer that was configured 
-                        and the indicator, pie chart and data table were the targets. When a station is chosen the data is filtered and the targets show the 
-                        corresponding data. 
-                    </p>
-
-                    <!-- SLIDER FOR STATIC IMAGES-->
-
-
-                    <div class="slider" >
-                        <div class="img-box">
-                          <img src="Images/dynamic_elements.jpg" class="dynamic-img">
+    
+    
+                        
+                        <!-- SLIDER FOR STATIC IMAGES  -->
+                        <div class="slider2">
+                            <div class="img-box">
+                              <img src="Images/static_elements.jpg" class="static-img">
+                            </div>
+                        
+                            <button class="btn1" onclick="prev1()">Prev</button>
+                            <button class="btn1" onclick="next1()">Next</button>
+                          </div>
                         </div>
-                    
-                        <button class="btn" onclick="prev2()">Prev</button>
-                        <button class="btn" onclick="next2()">Next</button>
-                      </div>
-                      
-<!-- dicoveries and limitations for the dashboard section KS april 19-->
-                <h3> Discoveries and Limitations</h3>   
-                <p> ArcGIS Dashboards gave us the ability to display the map alongside key data points that we thought fit into the overall 
-                    theme. Integrating the map was simple as it was created in ArcGIS Online so it was readily available as a widget item to be 
-                    added into the map. The other widgets were also easy enough to add to the layout and move around to suit our needs. The ease of
-                    making configurations came at the expense of certain customizations. For example the header does not allow you to chose the text position, 
-                    since we wanted it central we used the rich text option, but this mean in order to have the link out to the storymap and source data we still 
-                    needed to have the header in there. 
-                </p>
-
-                <p> 
-                    The design of the Dashboard was centered around the user interacting with it when they click on a station.
-                    Before this happens the Dashboard looks quite empty, especially in the dynamic column, but it was decided that this was okay because it was 
-                    easily resolved with interaction. A limitation we faced is that there is no way for the dashboard to default to this selection mode.
-                    The interaction that fills the dashboard is dependent on the end-user knowing that they couldn't just click on the stations but 
-                    instead first had to click the selection tool and then make their selection. We tried to remedy this by including instructions plus a 
-                    picture of the select tool below the map, but it's acknowledged that it isn't the most intuitive user interface. 
-                </p>
-               
-                
-               
+                        
+                          <!-- <script src="app.js"></script> -->
+                        <div class = dynamic>
+                        <h4>Dynamic</h4>
+                        <p class = pdash1> The dynamic elements of the map change once the end user chooses a station. It will then tell them how many years 
+                            the station has been active, what types of collection has happened there and finally the data table of results
+                            The Dashboard functionality that was used to make this happen was using layer actions. Layer actions allow you to choose 
+                            widgets on the Dashboard to be targeted in different ways when a selection is made. The map was the main layer that was configured 
+                            and the indicator, pie chart and data table were the targets. When a station is chosen the data is filtered and the targets show the 
+                            corresponding data. 
+                        </p>
+    
+                        <!-- SLIDER FOR STATIC IMAGES-->
+    
+    
+                        <div class="slider2" >
+                            <div class="img-box">
+                              <img src="Images/dynamic_elements.jpg" class="dynamic-img">
+                            </div>
+                        
+                            <button class="btn" onclick="prev2()">Prev</button>
+                            <button class="btn" onclick="next2()">Next</button>
+                          </div>
+                          
+    <!-- dicoveries and limitations for the dashboard section KS april 19-->
+                    <h3> Discoveries and Limitations</h3>   
+                    <p> ArcGIS Dashboards gave us the ability to display the map alongside key data points that we thought fit into the overall 
+                        theme. Integrating the map was simple as it was created in ArcGIS Online so it was readily available as a widget item to be 
+                        added into the map. The other widgets were also easy enough to add to the layout and move around to suit our needs. The ease of
+                        making configurations came at the expense of certain customizations. For example the header does not allow you to chose the text position, 
+                        since we wanted it central we used the rich text option, but this mean in order to have the link out to the storymap and source data we still 
+                        needed to have the header in there. 
+                    </p>
+    
+                    <p> 
+                        The design of the Dashboard was centered around the user interacting with it when they click on a station.
+                        Before this happens the Dashboard looks quite empty, especially in the dynamic column, but it was decided that this was okay because it was 
+                        easily resolved with interaction. A limitation we faced is that there is no way for the dashboard to default to this selection mode.
+                        The interaction that fills the dashboard is dependent on the end-user knowing that they couldn't just click on the stations but 
+                        instead first had to click the selection tool and then make their selection. We tried to remedy this by including instructions plus a 
+                        picture of the select tool below the map, but it's acknowledged that it isn't the most intuitive user interface. 
+                    </p>
+                   
 
                 
 
