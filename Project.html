@@ -42,8 +42,43 @@
         <main id="project-page">
             <section id="paragraph1" class="big-headings">
                 <h1>Problem Statement</h1>
-                <h3> A summary of the statement here </h3>
-                <h2>Ideal</h2>
+                <!-- <h3> A summary of the statement here </h3> -->
+
+                <table>
+                   <tr>
+                       <td class = theading>Ideal</td>
+                       <td class = texp>Providing the general public of Ontario access to water quality monitoring 
+                        data from the Provincial(Stream) Water Quality Monitoring Network. This would be of 
+                        benefit as it increases interest in water quality and encourages actions to improve 
+                        environmental conditions.  Encourage participation in water security initiatives whether 
+                        that be legislative or environmental rebate programs for home and community improvements.</td>
+                   </tr>
+                   <tr>
+                       <td  class = theading>Reality</td>
+                       <td class = texp>A well designed map and hub for accessing this location does not currently exist for 
+                        Ontarians. People may be unaware of why they should care about the water quality in 
+                        their area or unsure of their own agency in this topic. </td>
+                   </tr>
+                   <tr>
+                    <td  class = theading>Consequences</td>
+                    <td class = texp>The lack of accessibility to this data would cause people to continue to be uneducated 
+                        about existing water quality monitoring programs. This may lead to them feeling detached 
+                        from water security initiatives.</td>
+                </tr>
+                <tr>
+                    <td  class = theading>Proposal</td>
+                    <td class = texp>An ESRI dashboard will be created to display the Provincial(Stream) Water Quality Monitoring 
+                        Data for Ontario, specifically the water monitoring station locations and the 2021 data for 
+                        those stations. It will come from the governments open data portal. The dashboard will include
+                        a well designed interactive map as well as display a summarization of 5 major water quality 
+                        monitoring variables.  A story map will also be created to describe the process of creating the 
+                        dashboard as well as general information about this specific water quality monitoring program. 
+                        This storymap will allow the public to feel more involved in the creation process to foster a 
+                        better understanding of how the program works, it's benefits to their lives and how they can be 
+                        involved with water security issues.</td>
+                </tr>
+                  </table>
+                <!-- <h2>Ideal</h2>
                 <p>Providing the general public of Ontario access to water quality monitoring 
                     data from the Provincial(Stream) Water Quality Monitoring Network. This would be of 
                     benefit as it increases interest in water quality and encourages actions to improve 
@@ -66,13 +101,21 @@
                     dashboard as well as general information about this specific water quality monitoring program. 
                     This storymap will allow the public to feel more involved in the creation process to foster a 
                     better understanding of how the program works, it's benefits to their lives and how they can be 
-                    involved with water security issues.</p>
-                <h1  class = bigP>The Team's Journey</h1>
+                    involved with water security issues.</p> -->
+
+<!-- Dasboard methology KS;ast edited april 19 -->
+            
+                <h1>The Team's Journey</h1>
+                <p class = methodology> Here is the methodology that we used to create our solutions as well as an explanation of what worked well for us, 
+                    what limitations we felt were present considering the software we used, and our own personal limitations as an explanation of what 
+                    we feel we could have done better
+                </p>
                 <!-- <h2>Data Collection</h2>
                 <p>Stuff about Data collection</p>  -->
             </section>
             <section id="paragraph2" class="big-headings">
             <!-- Methodology Dashboard last updated KS 14/04/2022 -->
+            <div class = phase1>
                 <h2>Phase One: Dashboard</h2> 
                 <div > 
                     <h3 class =steps> Step One: Data Prep </h2>
@@ -100,13 +143,13 @@
                   </div>
                 
                   <!-- <script src="app.js"></script> -->
-            </div>
+            
 
-<!-- step two of phase one, 2 text and 2 sliders KS last edited april 19 -->            
-                    <h3> Step Two: Dashboard</h3>
+                 <!-- step two of phase one, 2 text and 2 sliders KS last edited april 19 -->            
+                    <h3> Step Two: Configuring Dashboard</h3>
                     <p> As the StoryMap will be doing the job of giving background information on water quality monitoring issues, 
-                        and this program in particular the intended focus of the Dashboard was conveying information about data collected 
-                        at individual stations. The class of widgets used can be split into dynamic vs static. 
+                        and this water quality monitoring program in particular the intended focus of the Dashboard was conveying information
+                         about data collected at individual stations. the elements of the dashboard can be split into two categories: Dynamic and Static. 
                     </p>  
                    
                     <div class = static>
@@ -129,7 +172,7 @@
                             <button class="btn1" onclick="prev1()">Prev</button>
                             <button class="btn1" onclick="next1()">Next</button>
                           </div>
-                        </div>
+                        
                         
                           <!-- <script src="app.js"></script> -->
                         <div class = dynamic>
@@ -141,6 +184,7 @@
                             and the indicator, pie chart and data table were the targets. When a station is chosen the data is filtered and the targets show the 
                             corresponding data. 
                         </p>
+                        </div>
     
                         <!-- SLIDER FOR STATIC IMAGES-->
     
@@ -154,7 +198,7 @@
                             <button class="btn" onclick="next2()">Next</button>
                           </div>
                           
-    <!-- dicoveries and limitations for the dashboard section KS april 19-->
+                   <!-- dicoveries and limitations for the dashboard section KS april 19-->
                     <h3> Discoveries and Limitations</h3>   
                     <p> ArcGIS Dashboards gave us the ability to display the map alongside key data points that we thought fit into the overall 
                         theme. Integrating the map was simple as it was created in ArcGIS Online so it was readily available as a widget item to be 
@@ -172,22 +216,23 @@
                         instead first had to click the selection tool and then make their selection. We tried to remedy this by including instructions plus a 
                         picture of the select tool below the map, but it's acknowledged that it isn't the most intuitive user interface. 
                     </p>
-                   
+            </div>   
 
-                
+                <!--Story Map Methodology, SS; Last update: April 19th-->
 
                 <h2>Phase Two: Story Map</h2> 
                 <div> Using Esri Story Map functionality, we were able to create and house an area where we will be able to fully tell our story. The steps below show how the story map was created:</div>
                 <div>
                     <h3> Step 1: Create a Custom Story Map Theme</h3>
                     <div> <img src="Images/Theme.png" alt="Screenshot of Create Theme page">
-                        <class= story1> Created a Custom Story Map Theme</div>
+                        <p class= story1> Created a Custom Story Map Theme</p>
+                    </div>
                 </div>
                 <div>
                     <h3> Step 2: Create the flow: ask the important questions </h3>
                 </div> 
                 <!--Slider for storymap "Questions"-->
-                <div class="slider" >
+                <div class="slider2" >
                     <div class="img-box">
                       <img src="Images/WhoWater.png" class="storymap-img">
                     </div>

@@ -10,6 +10,7 @@ body{
     background-color: #DEEAEC;
   }
 
+
   /* Navbar - Last Update April 6 2022 by KS and BC */ 
   /* this is the colour settings for the whole navbar - BC */ 
   .topnav {
@@ -179,21 +180,26 @@ footer {
 
 h1,h2 {
   text-align:center;
-  padding-bottom:30px;
+  padding-bottom:20px;
+  padding-top:70px;
 }
 
 h2 {
   font-size:35px;
+  color: #9B2226;
 }
 
 h3 {
  font-size:30px;
+ color: #AE2012;
+ text-align:center;
 }
 
 h4 {
   font-size:25px;
+  color: #BB3E03;
 }
-/* Introduction page CSS KS April 6 last edited april 17*/
+/* Introduction page CSS KS April 6, april 17, added additional style classes april 19 ah*/
 .problem-intro { 
   /* padding: 50px; */
   width: 80%
@@ -203,7 +209,15 @@ h4 {
   text-align: left;
 
 }
- 
+
+.paramargin { 
+  
+  color: #005F73;
+  margin: 20px;
+  line-height: 25px;
+  max-width:100%;
+  float:left;
+}
 .para { 
   
   color: #005F73;
@@ -211,6 +225,20 @@ h4 {
   line-height: 25px;
   max-width:100%;
   float:left;
+}
+
+.prettybox {
+  background-color:#005F73;
+  color: white;
+  padding-left: 5px;
+  padding-right:5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid black;
+  margin: 100px;
+  line-height: 25px;
+  max-width:100%;
+  font-size:20px;
 }
 
 .para1 {
@@ -309,6 +337,24 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 40px 95px 40px 90px;
 }
+
+/*image styles April 19 AH*/
+.imageright {
+  float:right;
+}
+
+.imageleft {
+  float:right;
+}
+
+.imagecentre { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
 /* Project page margins*/
 #project-page {
   margin: 25px 40px;
@@ -384,13 +430,33 @@ input[type=submit]:hover {
   float:right;
   /* margin-right:150px; */
   margin-top:100px;
+  background-color: #E8F5F1;
 }
 
 li {
   padding:20px;
 }
 
+/*methodology KS april 19*/
+.methodology {
+  max-width:50%;
+  font-size: 20px;
+  margin-left:375px;
+  text-align: center;
+}
 
+/* table for problem statement ks &bc april 19*/
+.theading {
+  padding:50px;
+  font-weight:bold;
+  font-size:25px;
+  color: #005F73;
+}
+
+.texp {
+  color:#581316;
+  font-weight:bold;
+}
 
 
 
@@ -400,7 +466,14 @@ li {
 .story1 {
   max-width:40%;
   float:right;
-  margin-left:100px;
+  margin-left:50px;
   margin-top:100px;
+}
+
+
+/*div styling projects page for clarity*/
+.phase1 {
+  background-color:#EBF2F3 ;
+  padding:5px;
 }
 
