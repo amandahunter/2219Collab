@@ -198,7 +198,7 @@ h4 {
   font-size:25px;
   color: #BB3E03;
 }
-/* Introduction page CSS KS April 6 last edited april 17*/
+/* Introduction page CSS KS April 6, april 17, added additional style classes april 19 ah*/
 .problem-intro { 
   /* padding: 50px; */
   width: 80%
@@ -208,7 +208,15 @@ h4 {
   text-align: left;
 
 }
- 
+
+.paramargin { 
+  
+  color: #005F73;
+  margin: 20px;
+  line-height: 25px;
+  max-width:100%;
+  float:left;
+}
 .para { 
   
   color: #005F73;
@@ -216,6 +224,16 @@ h4 {
   line-height: 25px;
   max-width:100%;
   float:left;
+}
+
+.prettybox {
+  background-color:#005F73;
+  color: powderblue;
+  border: 2px solid black;
+  margin: 50px;
+  line-height: 25px;
+  max-width:100%;
+  font-size:30px;
 }
 
 .para1 {
