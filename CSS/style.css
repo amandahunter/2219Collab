@@ -519,3 +519,8 @@ float:right;
   width:50%;
 }
 
+.page-header {
+  font-size: 3vw;
+  color: black;
+  font-weight: 700;
+}
