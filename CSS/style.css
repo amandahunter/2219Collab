@@ -230,7 +230,7 @@ h4 {
   margin: 20px;
   line-height: 25px;
   max-width:100%;
-  float:left;
+  /* float:left; */
 }
 .para { 
   
