@@ -230,7 +230,6 @@ h4 {
   margin: 20px;
   line-height: auto;
   max-width:100%;
-  
 }
 .para { 
   
@@ -255,9 +254,6 @@ h4 {
   font-size:20px;
 }
 
-.totheleft{
-
-}
 .para1 {
 
   color: #005F73;
@@ -268,12 +264,10 @@ h4 {
 
 /*adjusted parameters AH 20/04/2022*/
 .tech {
-  padding-bottom: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  
+  padding-bottom: 25px;
+  display: block;
+  margin: auto;
+  width: 40%;
 }
 
 /* About us image overlay BC April 16 */ 
@@ -385,6 +379,7 @@ input[type=submit]:hover {
   color: #005F73;
   margin: 20px 20px 20px 70px;
   line-height: 25px;
+  clear:both;
 }
 #aerial-water-tree-img {
   height:auto;
@@ -392,6 +387,18 @@ input[type=submit]:hover {
   margin-left: 50px;
 }
 
+#background-of-existing {
+  min-height: 500px;
+  align-items: center;
+  color: #005F73;
+  margin: 20px 20px 20px 70px;
+  line-height: 25px;
+  clear:both;
+}
+#homepage-img {
+  height:auto;
+  margin: 140px 70px 10px 50px;
+}
 
 
 /* Project page margins*/
