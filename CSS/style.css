@@ -502,5 +502,18 @@ li {
 
 }
 
+.stephs1 {
+  width:50%;
+  float:left;
 
+}
+
+.stephs2 {
+width:50%; 
+float:right;
+}
+
+.stephpic { 
+  width:50%;
+}
 
