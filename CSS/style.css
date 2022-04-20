@@ -235,12 +235,12 @@ h4 {
 .para { 
   
   color: #005F73;
-  /* margin-left: 10px; */
   line-height: 25px;
   max-width:100%;
   float:left;
 }
 
+/*19/04/2022 AH*/
 .prettybox {
   background-color:#005F73;
   color: white;
@@ -255,6 +255,9 @@ h4 {
   font-size:20px;
 }
 
+.totheleft{
+
+}
 .para1 {
 
   color: #005F73;
@@ -269,7 +272,7 @@ h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
   
 }
 
@@ -384,7 +387,7 @@ input[type=submit]:hover {
   line-height: 25px;
 }
 #aerial-water-tree-img {
-  height:400px;
+  height:auto;
   margin-right: 70px;
   margin-left: 50px;
 }
