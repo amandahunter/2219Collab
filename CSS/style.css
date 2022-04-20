@@ -418,34 +418,23 @@ input[type=submit]:hover {
   margin-right: 70px;
   margin-left: 50px;
 }
-<<<<<<< HEAD
 /*image styles April 19 AH*/
 #Background {
   height: 330px;
-=======
-
-#background-of-existing {
-  min-height: 500px;
->>>>>>> 8e1d7614e1c1ea6866f8f5529d9da3bcc072e119
   align-items: center;
   color: #005F73;
   margin: 20px 20px 20px 70px;
-  line-height: 25px;
-<<<<<<< HEAD
-=======
-  clear:both;
-}
-#homepage-img {
-  height:auto;
-  margin: 140px 70px 10px 50px;
-}
+  line-height: 25px;}
+  
+#Homepage-img {
+    height:auto;
+    margin: 140px 70px 10px 50px;
+/* Project page margins*/}
 
->>>>>>> 8e1d7614e1c1ea6866f8f5529d9da3bcc072e119
-
-/* Project page margins*/
 #project-page {
   margin: 25px 40px;
 }
+
 
 /* Ks slider  */
 .slider{
