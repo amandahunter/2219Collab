@@ -365,15 +365,24 @@ input[type=submit]:hover {
   float:right;
 }
 
-.imageleft {
-  float:right;
-}
-
 .imagecentre { 
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+#water-quality-explained {
+  height: 330px;
+  align-items: center;
+  color: #005F73;
+  margin: 20px 20px 20px 70px;
+  line-height: 25px;
+}
+#aerial-water-tree-img {
+  height:400px;
+  margin-right: 70px;
+  margin-left: 50px;
 }
 
 
