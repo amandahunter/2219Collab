@@ -128,11 +128,9 @@
                     <div class="static">
                         <h4>Static</h4>
                         <p class="pdash1">The static elements are an indicator that shows the number of stations and number of years that 
-                            the program has been running (a) and a reference to recommended water levels (b). The indicator is a ready-to-use widget option 
-                            within the Dashboard environment.The numerical values are referenced, this way if records are added 
-                            to the dataset it can be updated automatically (c). This was a useful discovery because it allows for automaic updating as the data updates 
-                            ,which may be the case where automation of collected data into the layer happens. The water level data was added in using the rich text widget, 
-                            which is a simple text element.  
+                            the program has been running (a)and a reference to recommended water levels (b). The indicator is a ready-to-use widget option 
+                            within the Dashboard environment.The numerical references use Arcade scripting, this way if records are added 
+                            to the dataset it can be updated automatically (c). The water level data was added in using the rich text widget. 
                         </p>
                         </div>
     
@@ -149,14 +147,13 @@
                         
                         <div class="dynamic">
                         <h4>Dynamic</h4>
-                        <p class="pdash1"> The dynamic elements of the map change once the end user chooses a station. It will tell them how many years 
+                        <p class="pdash1"> The dynamic elements of the map change once the end user chooses a station. It will then tell them how many years 
                             the station has been active, what types of collection has happened there and finally the data table of results
                             The Dashboard functionality that was used to make this happen was using layer actions. Layer actions allow you to choose 
-                            widgets on the Dashboard to be targeted in different ways when a selection is made. The map was the main layer that was configured for layer 
-                            actions and the indicator, pie chart and data table were the targets and the type of targeting that we used was filtering. 
-                            When a station is chosen the data is filtered and the targets show the corresponding data. 
+                            widgets on the Dashboard to be targeted in different ways when a selection is made. The map was the main layer that was configured 
+                            and the indicator, pie chart and data table were the targets. When a station is chosen the data is filtered and the targets show the 
+                            corresponding data. 
                         </p>
-
                         </div>
     
                         <!-- SLIDER FOR STATIC IMAGES Ks last edited april 19 -->
@@ -170,42 +167,30 @@
                             <button class="btn" onclick="next2()">Next</button>
                           </div>
                           
-                   <!-- discoveries and limitations for the dashboard section KS april 19-->
+                   <!-- discoveries and limitations for the dashboard section KS AH april 19-->
                     <h3> Discoveries and Limitations</h3>   
                     <p> ArcGIS Dashboards gave us the ability to display the map alongside key data points that we thought fit into the overall 
-                        theme. Integrating the map was simple as it was created in ArcGIS Online so it was readily available as an item to be 
+                        theme. Integrating the map was simple as it was created in ArcGIS Online so it was readily available as a widget item to be 
                         added into the map. The other widgets were also easy enough to add to the layout and move around to suit our needs. The ease of
                         making configurations came at the expense of certain customizations. For example the header does not allow you to chose the text position, 
                         since we wanted it central we used the rich text option, but this mean in order to have the link out to the storymap and source data we still 
                         needed to have the header in there. 
                     </p>
-
-                    <p> One discovery that was made but was not implemented for this dashboard was using selectors to allow users to filter the data 
-                          themselves based on features. While we attempted to do this in different ways the ultimate problem was the way the data was put together 
-                          in the excel was not ideal for using this feature. This feature would have allowed us to let people filter reults by things like parameters or 
-                          specific locations very easily. The benefit of this discovery is that if there is control over how the data is collected or extra time to sort 
-                          and clean the data this would enhance the dashboard in a big way.
-                      </p>
+    
                     <p> 
                         The design of the Dashboard was centered around the user interacting with it when they click on a station.
-                        Before this happens the Dashboard looks quite empty, especially in the dynamic column (a), but it was decided that this was okay because it was 
-                        easily resolved by introducing interaction. A limitation we faced is that there is no way for the dashboard to default to this selection mode.
+                        Before this happens the Dashboard looks quite empty, especially in the dynamic column, but it was decided that this was okay because it was 
+                        easily resolved with interaction. A limitation we faced is that there is no way for the dashboard to default to this selection mode.
                         The interaction that fills the dashboard is dependent on the end-user knowing that they couldn't just click on the stations but 
-                        instead first had to click the selection tool (b) and then make their selection. We tried to remedy this by including instructionsfo using
-                         the select tool below the map (c), but it's acknowledged that it isn't the most intuitive user interface. 
+                        instead first had to click the selection tool and then make their selection. We tried to remedy this by including instructions plus a 
+                        picture of the select tool below the map, but we've acknowledged that it isn't the most intuitive user interface. 
                     </p>
-
-
-                    <div class="slider2" >
-                        <div class="img-box">
-                          <img src="Images/Limit_1.jpg" class="limit-img" alt = "tlimits">
-                        </div>
-                    
-                        <button class="btn" onclick="prev4()">Prev</button>
-                        <button class="btn" onclick="next4()">Next</button>
-                      </div>
-
-                      
+                    <p> 
+                        A final limitation we experienced was in overall formatting of the rich text window. We had originally wanted to colour code some of our text to match
+                        our pie charts as well as other adjustments and found the setting available to toggle incredibly limited in this regard. There was/is an html code capabililty
+                        which would have allowed for more dynamism, but this has created an assumption that users/creators on the backend would have to know html coding in order to finesse their 
+                        rich text element. 
+                    </p>
             </div>
             <div class="divseparate">                             </div> 
                 <!--Story Map Methodology, SS; Last update: April 19th-->
