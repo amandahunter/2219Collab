@@ -230,8 +230,12 @@ h4 {
   margin-left: 20px;
   margin-right:20px;
   line-height: auto;
+<<<<<<< HEAD
   max-width:80%;
   
+=======
+  max-width:100%;
+>>>>>>> 8e1d7614e1c1ea6866f8f5529d9da3bcc072e119
 }
 .para { 
   
@@ -245,20 +249,26 @@ h4 {
 .prettybox {
   background-color:#005F73;
   color: white;
-  padding-left: 5px;
-  padding-right:5px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
+<<<<<<< HEAD
   border: 2px solid black;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 50px;
   margin-right: 50px;
+=======
+  margin: 100px;
+  display: inline-block;
+>>>>>>> 8e1d7614e1c1ea6866f8f5529d9da3bcc072e119
   line-height: 25px;
   max-width:100%;
   font-size:20px;
 }
 
+<<<<<<< HEAD
 /*19/04/2022 AH*/
 .lastparagraph {
 color: #005F73;
@@ -276,6 +286,8 @@ max-width:80%;}
   margin-bottom:10px;
 
 }
+=======
+>>>>>>> 8e1d7614e1c1ea6866f8f5529d9da3bcc072e119
 .para1 {
 
   color: #005F73;
@@ -286,12 +298,19 @@ max-width:80%;}
 
 /*adjusted parameters AH 20/04/2022*/
 .tech {
+<<<<<<< HEAD
   padding-bottom: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: auto;
   
+=======
+  padding-bottom: 25px;
+  display: block;
+  margin: auto;
+  width: 40%;
+>>>>>>> 8e1d7614e1c1ea6866f8f5529d9da3bcc072e119
 }
 /*19/04/2022 AH*/
 .mapo {
@@ -411,19 +430,36 @@ input[type=submit]:hover {
   color: #005F73;
   margin: 20px 20px 20px 70px;
   line-height: 25px;
+  clear:both;
 }
 #aerial-water-tree-img {
   height:335px;
   margin-right: 70px;
   margin-left: 50px;
 }
+<<<<<<< HEAD
 /*image styles April 19 AH*/
 #Background {
   height: 330px;
+=======
+
+#background-of-existing {
+  min-height: 500px;
+>>>>>>> 8e1d7614e1c1ea6866f8f5529d9da3bcc072e119
   align-items: center;
   color: #005F73;
   margin: 20px 20px 20px 70px;
   line-height: 25px;
+<<<<<<< HEAD
+=======
+  clear:both;
+}
+#homepage-img {
+  height:auto;
+  margin: 140px 70px 10px 50px;
+}
+
+>>>>>>> 8e1d7614e1c1ea6866f8f5529d9da3bcc072e119
 
 /* Project page margins*/
 #project-page {
