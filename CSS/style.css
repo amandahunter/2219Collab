@@ -300,11 +300,13 @@ max-width:80%;}
 /*19/04/2022 AH*/
 .mapo {
   height: 345px;
-float:left;
+  float:left;
   margin-right: 50px;
   margin-left: 70px;
-margin-bottom:5px;
-margin-top:35px;}
+  margin-bottom:90px;
+  margin-top:0px;
+  clear:top
+}
 
 /* About us image overlay BC April 16 */ 
 .flex-container {
@@ -605,3 +607,30 @@ margin-top:5px;
   max-width: 100%;
   height: auto; 
 }
+/* home page Parallax - last updated April 20 BC - adapted from https://www.w3schools.com/howto/howto_css_parallax.asp */ 
+.parallax {
+	/* The image used */
+	background-image: url("../Images/HeroImages/splash.jpg");
+  
+	/* Set a specific height */
+	min-height: 700px; 
+  
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("../Images/HeroImages/Water.jpg");
+    
+    /* Set a specific height */
+    min-height: 500px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }

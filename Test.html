@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="JS/script.js" defer></script>
+        <title>WebFoxtrot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <body>
+        <!-- Navbar set up - Last Updated on April 4 2022- by KS and BC - adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+        <header class="header">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <!-- Add a drop down to our nav bar for the project section - by KS & BC - On April 5 2022 - Adapted from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+                <div class="dropdown">
+                    <button class="dropbtn">Project
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="Project.html">Problem Statement</a> <!--currently set to link to the section on 1 page can change to diff pages if needed - BC -->
+                        <a href="Project.html#paragraph2">Method</a>
+                        <a href="Project.html#paragraph3">Solution</a>
+                    </div>
+                </div>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <!-- Button to scroll back to top of page - BC-->
+        <button onclick="topFunction()" id="topBtn" title="Back to top">Top</button>
+        <!-- Hero Image - BC -->
+        <div class="hero-image" id="home">
+            <div class="hero-text">
+                <h1>WebFoxtrot</h1>
+                <p>Homepage</p>
+            </div>
+        </div>
+<!--Homepage by AH last edit 20/04/2022-->
+        <div>
+            <h2 class="page-header">Geom 99 and the Question</h2>
+            <p class="paramargin"> Welcome to Web Foxtrot's Project page. The team consists of 4 peers who asked an important question:</p>
+
+            <p class="prettybox"> Why should we care about water quality and water quality monitoring initiatives? </p>
+            <img class="imagecentre" src="Images/Water/watermonitor.jpg" alt="Mrs Hemlock taking water samples">
+
+            <p class="paramargin">
+                The question was then recreated as a problem statement, and a web based solution was developed in response to it. The GEOM 99 learning goals require
+                WebFoxTrot to explore web technology in GIS by applying it to address the above stated problem.
+                This assignment mirrors how such a solution would be implemented based on a real need in a municipal or consulting role.</p>
+            <h2>Software Used</h2>
+            <img src = "Images/tech.jpg" class="tech">
+        </div>
+            
+            <div id="water-quality-explained"><!--</div> style="display:inline-block;"> -->
+                <img id="aerial-water-tree-img" class="imageright" src="Images/Water/watertree400x560.jpg" alt="aerial view of water with tree line">
+                <h2 class="totheleft">Explained</h2>
+                <p>Water quality monitoring programs are a vital tool to help improve local waters. 
+                It is the process of testing and assessing water to make ensure there is compliance with drinking water standards 
+                and helps alert us to on-going problems that could effect the health of our communities. </p>
+                
+                <p>It goes far beyond simply protecting our drinking water. 
+                In Canada, we are lucky to hold 20% of all the world’s freshwater in the Great Lakes. It and the St. Lawrence River Ecosystem break
+                down our wastes, reduce the risks of flood damage, provide food resources, and help moderate extreme weather.</p>
+
+                <p>Since all aquatic ecosystems depend on the quality of our water, and many different factors can impact the health of our waterways, 
+                the obvious conclusion is that we need water monitoring and water monitoring education in order to protect our most valuable resource.</p>
+            </div>
+
+        <!-- Footer BC -->
+        <footer>
+           <p>WebFoxtrot</p>
+        </footer>
+    </body>
+</html>
