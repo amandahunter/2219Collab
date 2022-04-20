@@ -592,3 +592,8 @@ margin-top:25px;
   color: black;
   font-weight: 700;
 }
+/*Solution Final Dashboard */ 
+.finaldashboard {
+  max-width: 100%;
+  height: auto;
+}
