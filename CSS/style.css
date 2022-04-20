@@ -227,9 +227,10 @@ h4 {
 /*19/04/2022 AH*/
 .paramargin { 
   color: #005F73;
-  margin: 20px;
+  margin-left: 20px;
+  margin-right:20px;
   line-height: auto;
-  max-width:100%;
+  max-width:80%;
   
 }
 .para { 
@@ -249,13 +250,30 @@ h4 {
   padding-top: 5px;
   padding-bottom: 5px;
   border: 2px solid black;
-  margin: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
   line-height: 25px;
   max-width:100%;
   font-size:20px;
 }
 
-.totheleft{
+/*19/04/2022 AH*/
+.lastparagraph {
+color: #005F73;
+margin-left: 20px;
+margin-right:20px;
+margin-bottom:100px;
+line-height: auto;
+max-width:80%;}
+
+/*19/04/2022 AH*/
+.totheleft{font-size:35px;
+  color: #9B2226;
+  text-align:left;
+  margin-top: 10px;
+  margin-bottom:10px;
 
 }
 .para1 {
@@ -272,9 +290,17 @@ h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: auto;
   
 }
+/*19/04/2022 AH*/
+.mapo {
+  height: 345px;
+float:left;
+  margin-right: 50px;
+  margin-left: 70px;
+margin-bottom:5px;
+margin-top:35px;}
 
 /* About us image overlay BC April 16 */ 
 .flex-container {
@@ -380,19 +406,24 @@ input[type=submit]:hover {
 }
 
 #water-quality-explained {
-  height: 330px;
+  height: 330;
   align-items: center;
   color: #005F73;
   margin: 20px 20px 20px 70px;
   line-height: 25px;
 }
 #aerial-water-tree-img {
-  height:auto;
+  height:335px;
   margin-right: 70px;
   margin-left: 50px;
 }
-
-
+/*image styles April 19 AH*/
+#Background {
+  height: 330px;
+  align-items: center;
+  color: #005F73;
+  margin: 20px 20px 20px 70px;
+  line-height: 25px;
 
 /* Project page margins*/
 #project-page {
