@@ -487,7 +487,13 @@ li {
   padding:5px;
 }
 
+.addinfo1 {
+  float:left;
+}
 
+.addinfo2 {
+  float:right
+}
 
 /*div styling projects page for clarity*/
 .phase1 {
