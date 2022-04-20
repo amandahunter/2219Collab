@@ -480,6 +480,13 @@ li {
   margin-top:100px;
 }
 
+/* div phase separator */
+.divseparate {
+  background-color: #E8F5F1;
+  padding:5px;
+}
+
+
 
 /*div styling projects page for clarity*/
 .phase1 {
