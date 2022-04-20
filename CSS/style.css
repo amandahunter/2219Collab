@@ -424,6 +424,12 @@ input[type=submit]:hover {
   margin-right: 70px;
   margin-left: 50px;
 }
+
+#mappoints-img {
+  height:335px;
+  margin-right: 70px;
+  margin-left: 50px;
+}
 /*image styles April 19 AH*/
 #Background {
   height: 330px;
@@ -483,12 +489,9 @@ input[type=submit]:hover {
     margin-left:160px;
 }
 
-
-
 .btn:hover{
 	background: #111;
 }
-
 
 .btn1:hover{
 	background: #111;
