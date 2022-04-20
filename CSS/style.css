@@ -259,6 +259,7 @@ h4 {
   max-width:100%;
 }
 
+
 .tech {
   padding-bottom: 100px;
   
@@ -279,12 +280,6 @@ h4 {
   display: block;
   width: 100%;
   height: auto;
-
-  /* The native size of the images is height: 300, width: 200
-  They will grow and grow (because they are flex), until they reach the value set for max-height and max-width
-  Therefore the max-height and max-width also need to be a 3:2 ratio */
-  max-height: 525px;
-  max-width: 350px;
 }
 .overlay {
   position: absolute;
@@ -300,11 +295,13 @@ h4 {
 }
 .text {
   color: white;
-  font-size: 1.7vw;
+  font-size: 20px;
   position: absolute;
-  width: 100%;
-  margin: 0px;
-  padding-top: 20px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 .flex-child {
