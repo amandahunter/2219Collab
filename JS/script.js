@@ -77,7 +77,7 @@ function setImg1(){
 // 2 ks
 
 var slider_image2 = document.querySelector('.dynamic-img');
-var img2 = [ 'dynamic_elements.jpg', 'dynamic_1.jpg'];
+var img2 = [ 'dynamic_elements.jpg', 'dynamic_1.jpg','dynamic_2.jpg'];
 var l = 0;
 
 function prev2(){
@@ -96,6 +96,29 @@ function setImg2(){
 	return slider_image2.setAttribute('src', "Images/"+img2[l]);
 	
 }
+// 3 ks 
+
+var slider_image4 = document.querySelector('.limit-img');
+var img4 = [ 'Limit_1.jpg', 'Limit_4.jpg','Limit_3.jpg'];
+var n= 0;
+
+function prev4(){
+	if(n <= 0) n= img2.length;	
+	n--;
+	return setImg4();			 
+}
+
+function next4(){
+	if(n >= img2.length-1) n = -1;
+	n++;
+	return setImg4();			 
+}
+
+function setImg4(){
+	return slider_image4.setAttribute('src', "Images/"+img4[n]);
+
+}
+
 
 // steph's slider 
 
