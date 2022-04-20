@@ -495,6 +495,13 @@ li {
   float:right;
 }
 
+.addinfo1text{
+  text-align:right
+}
+
+.addinfo2text{
+  text-align: left;
+}
 /*div styling projects page for clarity*/
 .phase1 {
   background-color:#EBF2F3 ;
