@@ -493,15 +493,20 @@ li {
 
 .addinfo2 {
   float:right;
+  margin-top:100px;
 }
 
 .addinfo1text{
   text-align:right
 }
 
-.addinfo2text{
-  text-align: left;
+.story2 {
+  max-width:40%;
+  float:left;
+  margin-right:20px;
+  margin-top:100px;
 }
+
 /*div styling projects page for clarity*/
 .phase1 {
   background-color:#EBF2F3 ;
