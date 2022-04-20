@@ -3,7 +3,7 @@
 /*Font we are using is: Arial, Helvetica, sans-serif;*/ 
 
 body{
-    margin: 20;
+    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     height: 100%;
@@ -487,21 +487,7 @@ li {
   padding:5px;
 }
 
-.addinfo1 {
-  float:left;
-}
 
-.addinfo2 {
-  float:right;
-}
-
-.addinfo1text{
-  text-align:right
-}
-
-.addinfo2text{
-  text-align: left;
-}
 /*div styling projects page for clarity*/
 .phase1 {
   background-color:#EBF2F3 ;
