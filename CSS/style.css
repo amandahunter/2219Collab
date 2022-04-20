@@ -226,7 +226,6 @@ h4 {
 
 /*19/04/2022 AH*/
 .paramargin { 
-  
   color: #005F73;
   margin: 20px;
   line-height: auto;
@@ -357,7 +356,7 @@ input[type=submit]:hover {
 }
 #contact-container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #cde9ea;
   padding: 40px 95px 40px 90px;
 }
 
@@ -376,6 +375,20 @@ input[type=submit]:hover {
   margin-right: auto;
   width: auto;
 }
+
+#water-quality-explained {
+  height: 330px;
+  align-items: center;
+  color: #005F73;
+  margin: 20px 20px 20px 70px;
+  line-height: 25px;
+}
+#aerial-water-tree-img {
+  height:400px;
+  margin-right: 70px;
+  margin-left: 50px;
+}
+
 
 
 /* Project page margins*/
@@ -459,6 +472,15 @@ input[type=submit]:hover {
 
 li {
   padding:20px;
+}
+
+#paragraph1 {
+  background-color: #cde9ea
+;
+  padding-bottom: 30px;
+}
+#paragraph2 h1 {
+  padding-top: 40px;
 }
 
 /*methodology KS april 19*/
