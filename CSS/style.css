@@ -263,14 +263,14 @@ h4 {
   max-width:100%;
 }
 
-
+/*adjusted parameters AH 20/04/2022*/
 .tech {
-  padding-bottom: 100px;
+  padding-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   
-}
-
-.question {
-  padding-bottom: 100px;
 }
 
 /* About us image overlay BC April 16 */ 
@@ -365,24 +365,15 @@ input[type=submit]:hover {
   float:right;
 }
 
+.imageleft {
+  float:left;
+}
+
 .imagecentre { 
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-#water-quality-explained {
-  height: 330px;
-  align-items: center;
-  color: #005F73;
-  margin: 20px 20px 20px 70px;
-  line-height: 25px;
-}
-#aerial-water-tree-img {
-  height:400px;
-  margin-right: 70px;
-  margin-left: 50px;
 }
 
 
