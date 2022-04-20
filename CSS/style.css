@@ -224,13 +224,14 @@ h4 {
 
 }
 
+/*19/04/2022 AH*/
 .paramargin { 
   
   color: #005F73;
   margin: 20px;
-  line-height: 25px;
+  line-height: auto;
   max-width:100%;
-  /* float:left; */
+  
 }
 .para { 
   
@@ -248,10 +249,10 @@ h4 {
   padding-right:5px;
   padding-top: 5px;
   padding-bottom: 5px;
+  border: 2px solid black;
   margin: 100px;
   line-height: 25px;
   max-width:100%;
-  display: inline-block;
   font-size:20px;
 }
 
@@ -373,7 +374,7 @@ input[type=submit]:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: auto;
 }
 
 
