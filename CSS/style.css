@@ -1,7 +1,9 @@
 /* Website to find the colour palette https://coolors.co/palettes/trending */ 
 /* Colour palette we are currently using: https://coolors.co/palette/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226 */
 /*Font we are using is: Arial, Helvetica, sans-serif;*/ 
-
+* {
+  box-sizing: border-box;
+}
 body{
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -289,6 +291,10 @@ h4 {
   opacity: 0;
   transition: .5s ease;
   background-color: #BB3E03;
+
+  /* needs same max size as the image */
+  max-height: 525px;
+  max-width: 350px;
 }
 .flex-child:hover .overlay {
   opacity: 1;
@@ -297,12 +303,14 @@ h4 {
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  width: 100%;
+  margin: 0px;
+  padding: 20px 10px 20px 10px;
   text-align: center;
+
+  /* needs same max size as the image */
+  max-height: 525px;
+  max-width: 350px;
 }
 .flex-child {
   position: relative;
@@ -318,7 +326,6 @@ input[type=text], select, textarea {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
