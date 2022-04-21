@@ -21,7 +21,7 @@ body {
 }
 
 .page-header {
-    font-size: 3vw;
+    font-size: calc(12px + 2.3vw);
     color: black;
     font-weight: 700;
 }
@@ -70,15 +70,14 @@ p {
         float: right;
         display: block;
     }
-}
 
-@media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
+    
     .topnav.responsive a {
         float: none;
         display: block;
@@ -172,6 +171,7 @@ footer {
     background-color: #005F73;
     color: white;
     text-align: center;
+    clear: both;
 }
 
 footer p {
@@ -616,10 +616,6 @@ line-height: 25px;
 
 /* ABOUT US PAGE */
 
-#about-header {
-    margin-left: 30px;
-}
-
 /* About us image overlay BC April 16 */ 
 .flex-container {
     position: relative;
@@ -696,10 +692,6 @@ input[type=submit] {
   
 input[type=submit]:hover {
     background-color: #BB3e03;
-}
-
-#contact-header {
-    margin-left: 90px;
 }
 
   #contact-container {
