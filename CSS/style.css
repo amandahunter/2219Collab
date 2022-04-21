@@ -320,11 +320,17 @@ h4 {
 .final-dashboard {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .final-storymap {
     max-width: 100%;
-    height: auto; 
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 /* div phase separator - KS - April 19*/
@@ -348,6 +354,9 @@ h4 {
 }
 
 /* table for problem statement KS & BC April 19*/
+table {
+    overflow-x:auto  
+}
 .t-heading {
     padding: 50px;
     font-weight: bold;
@@ -483,13 +492,16 @@ p.project-page {
   
 .image-left {
     float: left;
+    max-height: 100%;
+    max-width: 100%;
 }
   
 .image-centre { 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
   
 #water-quality-explained {
@@ -502,9 +514,12 @@ p.project-page {
 }
 
 #aerial-water-tree-img {
-    height: 335px;
     margin-right: 70px;
     margin-left: 50px;
+    margin-bottom: 100px;
+    max-width: 100%;
+    max-height: 100%
+
 }
   
 /*#map-points-img {
@@ -591,7 +606,8 @@ line-height: 25px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
+    max-width: 100%;
+    max-height: 100%
 }
 
 #more-info-introduction {
