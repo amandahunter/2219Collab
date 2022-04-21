@@ -120,21 +120,21 @@
                     <!-- step two of phase one, 2 text and 2 sliders KS last edited april 19 -->            
                     <div class="thin-divider"></div>
                     <h3> Step Two: Configuring Dashboard</h3>
-                    <p>We chose to use ArcGIS Dashboards to represent the data as it allowed for the stations to be represented in a clear interactive map,
-                        similarly to the site for the provincial water quality monitoring network with the addition to the user being able to see collected data. 
+                    <p>We chose to use ArcGIS Dashboards to represent the data as it allowed the stations to be viewed on a clean interactive map,
+                        similarly to the site for the provincial water quality monitoring network, with the addition to the user being able to see collected data from each station. 
                         As the StoryMap will be doing the job of giving background information on water quality monitoring issues, 
-                        and this water quality monitoring program in particular, the intended focus of the Dashboard was conveying information
-                        about data collected at individual stations. The elements of the dashboard can be split into two categories: Dynamic and Static. 
+                        and this water quality monitoring program in particular, the intended focus of the Dashboard was conveying important themes in the 
+                        data collected at individual stations. The elements of the dashboard can be split into two categories: Dynamic and Static. 
                     </p>  
                     
                     <div class="static">
                         <h4>Static</h4>
-                        <p class="pdash1">The static elements are an indicator that shows the number of stations and number of years that 
+                        <p class="pdash1">The static elements are: an indicator that shows the number of stations as well as the number of years that 
                             the program has been running (a) and a reference to recommended water levels (b). The indicator is a ready-to-use widget option 
-                            within the Dashboard environment.The numerical values are referenced, this way if records are added 
-                            to the dataset it can be updated automatically (c). This was a useful discovery because it allows for automatic updating as the data updates 
-                            ,which may be the case where automation of collected data into the layer happens. The water level data was added in using the rich text widget, 
-                            which is a simple text element.  
+                            within the Dashboard environment.The numerical values are referenced as the total count of distinct station numbers and the max number of total years for a station.
+                            This way if records are added to the dataset it can be updated automatically (c). This was a useful discovery because it allows for automatic 
+                            updating ,which may be the case where automation of collected data into the layer happens. The water level data was added in using the rich text widget, 
+                            which is a simple text element that can be enhanced using html, but those enhancements weren't necessary for this dashboard.   
                         </p>
                     </div>
 
@@ -151,7 +151,7 @@
                         
                     <div class="dynamic">
                         <h4>Dynamic</h4>
-                        <p class="pdash1"> The dynamic elements of the map change once the end user chooses a station. It will tell them how many years 
+                        <p class="pdash1"> The dynamic elements of the map make their change once the end user chooses a station. It will tell them how many years 
                             the station has been active, what types of collection has happened there and finally the data table of results
                             The Dashboard functionality that was used to make this happen was using layer actions. Layer actions allow you to choose 
                             widgets on the Dashboard to be targeted in different ways when a selection is made. The map was the main layer that was configured for layer 
@@ -194,7 +194,9 @@
                         easily resolved by introducing interaction. A limitation we faced is that there is no way for the dashboard to default to this selection mode.
                         The interaction that fills the dashboard is dependent on the end-user knowing that they couldn't just click on the stations but 
                         instead first had to click the selection tool (b) and then make their selection. We tried to remedy this by including instructions for using
-                            the select tool below the map (c), but it's acknowledged that it isn't the most intuitive user interface. 
+                         the select tool below the map (c), but it's acknowledged that it isn't the most intuitive user interface. A way to filter data without using the select tool 
+                         would have been by filtering based on scale or zoom. Because the collection data was most relevant when looking at one specific station at a time versus a region 
+                         we chose not to use it in our dashboard. 
                     </p>
                     <!-- slide 4 corresponding to the "the design of the db" paragraph ks -->
                     <div class="slider2" >
