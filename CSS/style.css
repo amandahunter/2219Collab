@@ -279,10 +279,23 @@ h4 {
     margin-bottom: 90px;
     margin-top: 30px;
 }
+/* The intention of this @media section is that once the page becomes so narrow
+that the image and the header next to it can't fit side-by side,
+we change the image to just be simple a block element displayed above the text */
+@media screen and (max-width: 765px) {
+    .map-o {
+        margin: 25px auto 0px;
+        float: none;
+        display: block;
+    }
+}
 
 #background-info {
-    padding-right: 35px;
     padding-bottom: 30px;
+}
+#background-info-text {
+    padding-right: 35px;
+    padding-left: 35px;
 }
 
 #goals {
