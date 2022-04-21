@@ -42,3 +42,23 @@
     color: #9B2226;
     text-align: left;
 }*/
+
+/*19/04/2022 AH*/
+.map-o {
+    height: 345px;
+    float: left;
+    margin-right: 50px;
+    margin-left: 70px;
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+
+#background-info {
+    padding-right: 35px;
+    padding-bottom: 30px;
+}
+#goals {
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+}

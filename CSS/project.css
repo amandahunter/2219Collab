@@ -42,7 +42,7 @@
 /*div styling projects page for clarity*/
 .phase1 {
     background-color: #EBF2F3 ;
-    padding: 0px;
+    padding: 0px 0px 30px 0px;
 }
 
 /*methodology KS april 19*/
@@ -87,7 +87,10 @@ li {
 #paragraph2 h1 {
     padding-top: 40px;
 }
-  
+#paragraph3 {
+    background-color: #cde9ea;
+    padding-bottom: 30px;
+}
 
 /* KS methodology static paragraph april 17 */
 /*.staticE {
