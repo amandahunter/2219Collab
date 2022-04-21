@@ -7,16 +7,18 @@
     margin-top: 100px;
 }
 
-.stephs1 {
+#stephs1 {
     width: 50%;
     float: left;
     margin-top: 5px; 
+    padding: 35px 100px 10px 100px;
 }
   
-.stephs2 {
+#stephs2 {
     width: 50%; 
     float: right;
     margin-top: 5px; 
+    padding: 75px 100px 10px 100px;
 }
   
 .steph-pic { 
@@ -71,9 +73,11 @@
 .pDash {
     max-width: 40%;
     float: right;
-    /* margin-right: 150px; */
     margin-top: 100px;
+    margin-right: 50px;
     background-color: #E8F5F1;
+    background-color: goldenrod;
+    padding-right: 30px;
 }
   
 li {
@@ -82,6 +86,7 @@ li {
   
 #paragraph1 {
     background-color: #cde9ea;
+    padding-right: 50px;
     padding-bottom: 30px;
 }
 #paragraph2 h1 {
@@ -167,4 +172,9 @@ img {
 .thin-divider {
     height: 4px;
     background-color: #deeaec;
+}
+
+p.project-page {
+    padding-left: 45px;
+    padding-right: 45px;
 }
