@@ -3,6 +3,7 @@
 /* Font we are using is: Arial, Helvetica, sans-serif; */ 
 
 /* MAIN STYLE */ 
+
 * {
     box-sizing: border-box;
 }
@@ -227,6 +228,7 @@ h4 {
 }
 
 /* HOME PAGE */
+
 /* home page Parallax - last updated April 20 BC - adapted from https://www.w3schools.com/howto/howto_css_parallax.asp */ 
 .parallax {
     background-image: url("../Images/HeroImages/splash.jpg");
@@ -287,6 +289,7 @@ h4 {
 }
 
 /* PROJECT PAGE */ 
+
 /* StoryMap and Project Page SS - April 19*/
 .story1 {
     max-width: 40%;
@@ -472,6 +475,7 @@ p.project-page {
 }
 
 /* MORE INFO PAGE */ 
+
 /*image styles April 19 AH*/
 .image-right {
     float: right;
@@ -594,7 +598,8 @@ line-height: 25px;
     text-align: center;
 }
 
-/* ABOUT PAGE */
+/* ABOUT US PAGE */
+
 #about-header {
     margin-left: 30px;
 }
@@ -652,6 +657,7 @@ line-height: 25px;
 }  
   
 /* CONTACT US PAGE */ 
+
 /* Contact Us Form - BC - April 16 */ 
 input[type=text], select, textarea {
     width: 100%;
