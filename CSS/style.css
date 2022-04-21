@@ -21,7 +21,7 @@ body {
 }
 
 .page-header {
-    font-size: calc(12px + 2.3vw);
+    font-size: calc(16px + 2vw);
     color: black;
     font-weight: 700;
 }
@@ -421,7 +421,7 @@ table {
     padding-right: 30px;
 }
 /* on thin screens, stack block elements on top of each other instead of floating*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .pDash {
         float: none;
         max-width: 95%;
@@ -431,14 +431,16 @@ table {
         width: 95%;
     }
     button.btn {
-        margin-left: 25px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     div.slider2 {
         width: 95%;
         margin: auto;
     }
     button.btn1 {
-        margin-left: 25px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     .story1 {
         float: none;
@@ -498,7 +500,7 @@ li {
 .slider {
     /* margin:50px auto; */
     width: 50%;
-    height: 600px;
+    height: 650px;
 }
 
 .slider2 {
