@@ -1,22 +1,24 @@
 // Navbar - KS & BC - April 5 
-function myFunction() {
+function toggleResponsiveNavMenu() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
-      x.className += "responsive";
+      x.className += " responsive";
     } else {
       x.className = "topnav";
     }
   }
+
+  
 //Scroll Back to Top Button - BC - April 5 
-var mybutton = document.getElementById("topBtn");
+var topButton = document.getElementById("topBtn");
 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    mybutton.style.display = "block";
+    topButton.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    topButton.style.display = "none";
   }
 }
 

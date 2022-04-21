@@ -38,7 +38,7 @@ p {
     background-color: #005F73; 
 }
 
-  .topnav a {
+.topnav a {
     float: left;
     display: block;
     color: white;
@@ -65,20 +65,23 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+    /* Hide most of the menu buttons and show the hamburger menu */
     .topnav a:not(:first-child) {display: none;}
+    div.dropdown {display: none;}
     .topnav a.icon {
         float: right;
         display: block;
     }
 
+    /* topnav styles if the topnav has the "responsive" class - set when the user clicks on the hamburger menu*/
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
-    
-    .topnav.responsive a {
+    .topnav.responsive a,
+    .topnav.responsive div.dropdown {
         float: none;
         display: block;
         text-align: left;
