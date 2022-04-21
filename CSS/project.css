@@ -51,7 +51,7 @@
 .methodology {
     max-width: 50%;
     font-size: 20px;
-    margin-left: 375px;
+    margin: auto;
     text-align: center;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .t-exp {
-    color: #581316;
+    color:#9B2226;
     font-weight: bold;
 }
 
@@ -73,8 +73,8 @@
 .pDash {
     max-width: 40%;
     float: right;
-    margin-top: 100px;
-    margin-right: 50px;
+    margin-top: 50px;
+    margin-right: 10px;
     background-color: #E8F5F1;
     background-color: goldenrod;
     padding-right: 30px;
