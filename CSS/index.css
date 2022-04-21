@@ -1,0 +1,44 @@
+/* home page Parallax - last updated April 20 BC - adapted from https://www.w3schools.com/howto/howto_css_parallax.asp */ 
+.parallax {
+    /* The image used */
+    background-image: url("../Images/HeroImages/splash.jpg");
+    
+    /* Set a specific height */
+    min-height: 700px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("../Images/HeroImages/Water.jpg");
+    
+    /* Set a specific height */
+    min-height: 500px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* HOME PAGE - BC */
+/*.intro {
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+}*/
+
+/* Introduction page CSS KS April 6, april 17, added additional style classes april 19 ah*/
+/*.problem-intro { 
+    padding: 50px;
+    width: 80%
+}
+.problem { 
+    color: #9B2226;
+    text-align: left;
+}*/

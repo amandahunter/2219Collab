@@ -1,0 +1,167 @@
+/* Project Page SS */
+
+.story1 {
+    max-width: 40%;
+    float: right;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+.stephs1 {
+    width: 50%;
+    float: left;
+    margin-top: 5px; 
+}
+  
+.stephs2 {
+    width: 50%; 
+    float: right;
+    margin-top: 5px; 
+}
+  
+.steph-pic { 
+    width: 50%;
+}
+
+/*Solution Final Dashboard and StoryMap - Last updated April 19 BC */ 
+.final-dashboard {
+    max-width: 100%;
+    height: auto;
+}
+.final-storymap {
+    max-width: 100%;
+    height: auto; 
+}
+
+/* div phase separator */
+/*.div-separate {
+    background-color: #E8F5F1;
+    padding: 5px;
+}*/
+
+/*div styling projects page for clarity*/
+.phase1 {
+    background-color: #EBF2F3 ;
+    padding: 0px;
+}
+
+/*methodology KS april 19*/
+.methodology {
+    max-width: 50%;
+    font-size: 20px;
+    margin-left: 375px;
+    text-align: center;
+}
+
+/* table for problem statement ks &bc april 19*/
+.t-heading {
+    padding: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #005F73;
+}
+
+.t-exp {
+    color: #581316;
+    font-weight: bold;
+}
+
+
+ /*Project page KS*/ 
+.pDash {
+    max-width: 40%;
+    float: right;
+    /* margin-right: 150px; */
+    margin-top: 100px;
+    background-color: #E8F5F1;
+}
+  
+li {
+    padding: 20px;
+}
+  
+#paragraph1 {
+    background-color: #cde9ea;
+    padding-bottom: 30px;
+}
+#paragraph2 h1 {
+    padding-top: 40px;
+}
+  
+
+/* KS methodology static paragraph april 17 */
+/*.staticE {
+    margin-left:100px;
+    max-width:40%
+}
+.static1 {
+   max-width:20%;
+   padding:40px;
+}*/
+
+/* Project page margins*/
+
+#project-page {
+    margin: 25px 40px;
+}
+
+/* Ks slider  */
+.slider {
+    /* margin:50px auto; */
+    width: 50%;
+}
+
+.slider2 {
+    width: 50%;
+    margin-left: 350px;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: #D8EFE7;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #71140C;
+    cursor: pointer;
+    margin: 20px auto;
+    margin-left: 160px;
+}
+  
+.btn1 {
+    border: none;
+    outline: none;
+    background: #D8EFE7;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #71140C;
+    cursor: pointer;
+    margin: 20px auto;
+    margin-left: 160px;
+}
+  
+.btn:hover {
+      background: #111;
+}
+  
+.btn1:hover {
+      background: #111;
+}
+  
+.big-headings h1 {
+    /* color: #001219; I took this out cause it kept overwriting my headings -ks */
+    text-shadow: none;
+    font-size: 40px;
+}
+img {
+    padding: 5px;
+}
+
+.thin-divider {
+    height: 4px;
+    background-color: #deeaec;
+}
