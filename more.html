@@ -1,76 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <link rel="stylesheet" href="CSS/style.css">
-      <script src="JS/script.js" defer></script>
-      <title>WebFoxtrot</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-  </head>
-  <body>
-      <!-- Navbar set up - Last Updated on April 4 2022- by KS and BC - adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
-    <header class="header">
-        <div class="topnav" id="myTopnav">
-            <a href="index.html" >Home</a>
-            <!-- Add a drop down to our nav bar for the project section - by KS & BC - On April 5 2022 - Adapted from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
-            <div class="dropdown">
-                <button class="dropbtn">Project
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="Project.html">Problem Statement</a> <!--currently set to link to the section on 1 page can change to diff pages if needed - BC -->
-                  <a href="Project.html#paragraph2">Method</a>
-                  <a href="Project.html#paragraph3">Solution</a>
+    <head>
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="JS/script.js" defer></script>
+        <title>WebFoxtrot</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <body>
+        <!-- Navbar set up - Last Updated on April 4 2022- by KS and BC - adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+        <header class="header">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <!-- Add a drop down to our nav bar for the project section - by KS & BC - On April 5 2022 - Adapted from https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+                <div class="dropdown">
+                    <button class="dropbtn">Project
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="Project.html">Problem Statement</a> <!--currently set to link to the section on 1 page can change to diff pages if needed - BC -->
+                        <a href="Project.html#paragraph2">Journey</a>
+                        <a href="Project.html#paragraph3">Solution</a>
+                        
+                    </div>
                 </div>
-              </div>
-            <a href="about.html" class="active">About Us</a>
-            <a href="contact.html">Contact </a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
+                <a href="more.html" class="active">More Info</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <!-- Button to scroll back to top of page - BC-->
+        <button onclick="topFunction()" id="topBtn" title="Back to top">Top</button>
+        <!-- Hero Image - BC -->
+        <div class="hero-image" id="home">
+            <div class="hero-text">
+                <h1>WebFoxtrot</h1>
+                <p>More Info</p>
+            </div>
         </div>
-    </header>
-    <!-- Button to scroll back to top of page - BC-->
-    <button onclick="topFunction()" id="topBtn" title="Back to top">Top</button>
-    <!-- Hero Image - BC -->
-    <div class="hero-image" id="home">
-        <div class="hero-text">
-            <h1>WebFoxtrot</h1>
-            <p>Home</p>
-        </div>
-    </div>
-    <!-- Insert Parallax Scroll with Home page info in it-->
-    <h1>Catchy phrase</h1>
-    <div class="parallax"></div>
-    <div>
-      <img class="mapo" src="Images/homepage.jpg">
-      <h2>Background</h2> 
-      <p>Ontario has 36 conservation authorities which are divided by watersheds. They are responsible for those stations that fall within 
-        their boundaries, with community members, volunteers and community organizations supporting the collection of data which would inform management decisions.
-         The Provincial Water Quality Monitoring Network (PWQMN) is the primary partnership for data collection and will be the
-        focus of our solution.</p>
-      <p>Data from the PWQMN provide vital information on the quality of stream water networks across 
-        Ontario and covers a wide range of parameters. The current interface provided for displaying the data is designed to show
-        active versus inactive stations on a map and give spatial context to people exploring its accompanying open source datasets but it
-        does not go any further than that. The data collected through this program has the potential to play a role in engaging the 
-        general public with water quality and protection issues. </p>
-      <p>The lack of accessible and engaging information for the general public is a problem. The data that comes from programs like these is invaluable for
-        the continued funding of existing programs as well as funding being allocated to new programs via public pressure on legislation. The image on the left 
-        shows the current display for water stations that are part of the program. </p>
-    </div>
-    <div class="parallax"></div>
-    <div>
-      <h2>Goals</h2>
-      <p>The goal was to create a solution which educates and engages! This is an Esri Dashboard to display 
-        the collected data along with a summarization of important water quality parameters. Alongside this 
-        Dashboard will be an Esri StoryMap to communicate the reason the program exists as well as general 
-        information about water quality monitoring programs</p>
-    </div>
-    <div class="parallax2"></div>
+<!--Homepage by AH last edit 20/04/2022-->
+        <div>
+            <h2 class="page-header">Geom 99 and the Question</h2>
+            <p class="paramargin"> Welcome to Web Foxtrot's Project page. The team consists of 4 peers who asked an important question:</p>
 
-    <!-- Footer BC -->
-    <footer>
-      <p>WebFoxtrot</p>
-    </footer>
-  </body>
+            <p class="prettybox"> Why should we care about water quality and water quality monitoring initiatives? </p>
+            <img class="imagecentre" src="Images/Water/watermonitor.jpg" alt="Mrs Hemlock taking water samples">
+
+            <p class="paramargin">
+                The question was then recreated as a problem statement, and a web based solution was developed in response to it. The GEOM 99 learning goals require
+                WebFoxTrot to explore web technology in GIS by applying it to address the above stated problem.
+                This assignment mirrors how such a solution would be implemented based on a real need in a municipal or consulting role.</p>
+            <h2>Software Used</h2>
+            <img src = "Images/tech.jpg" class="tech">
+        </div>
+            
+            <div id="water-quality-explained"><!--</div> style="display:inline-block;"> -->
+                <img id="aerial-water-tree-img" class="imageright" src="Images/Water/watertree400x560.jpg" alt="aerial view of water with tree line">
+                <h2 class="totheleft">Explained</h2>
+                <p>Water quality monitoring programs are a vital tool to help improve local waters. 
+                It is the process of testing and assessing water to make ensure there is compliance with drinking water standards 
+                and helps alert us to on-going problems that could effect the health of our communities. </p>
+                
+                <p>It goes far beyond simply protecting our drinking water. 
+                In Canada, we are lucky to hold 20% of all the world’s freshwater in the Great Lakes. It and the St. Lawrence River Ecosystem break
+                down our wastes, reduce the risks of flood damage, provide food resources, and help moderate extreme weather.</p>
+
+                <p>Since all aquatic ecosystems depend on the quality of our water, and many different factors can impact the health of our waterways, 
+                the obvious conclusion is that we need water monitoring and water monitoring education in order to protect our most valuable resource.</p>
+            </div>
+
+        <!-- Footer BC -->
+        <footer>
+           <p>WebFoxtrot</p>
+        </footer>
+    </body>
 </html>
