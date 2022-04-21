@@ -368,6 +368,11 @@ we change the image to just be simple a block element displayed above the text *
     margin: auto;
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+    .methodology {
+        max-width: 75%;
+    }
+}
 
 /* table for problem statement KS & BC April 19*/
 table {
@@ -378,6 +383,27 @@ table {
     font-weight: bold;
     font-size: 25px;
     color: #005F73;
+}
+.t-heading-responsive {
+    display: none;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #005F73;
+}
+.t-heading-responsive td {
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .t-heading {
+        display: none;
+    }
+    .t-heading-responsive {
+        display: block;
+    }
+    .t-exp {
+        text-align: center;
+    }
 }
 
 .t-exp {
@@ -394,7 +420,45 @@ table {
     background-color: #def0ea;
     padding-right: 30px;
 }
-  
+/* on thin screens, stack block elements on top of each other instead of floating*/
+@media screen and (max-width: 600px) {
+    .pDash {
+        float: none;
+        max-width: 95%;
+        margin-left: 10px;
+    }
+    div.slider {
+        width: 95%;
+    }
+    button.btn {
+        margin-left: 25px;
+    }
+    div.slider2 {
+        width: 95%;
+        margin: auto;
+    }
+    button.btn1 {
+        margin-left: 25px;
+    }
+    .story1 {
+        float: none;
+        max-width: 95%;
+    }
+    #stephs1,
+    #stephs2 {
+        float: none;
+        width: 95%;
+    }
+    .steph-pic {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+}
+
+img {
+    max-width: 100%;
+}
 li {
     padding: 20px;
 }
@@ -492,6 +556,7 @@ img {
 .thin-divider {
     height: 4px;
     background-color: #deeaec;
+    clear: both;
 }
 
 p.project-page {
