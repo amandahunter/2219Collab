@@ -1,4 +1,4 @@
-// Navbar - KS & BC - April 5 2022 
+// Navbar - KS & BC - April 5 
 function myFunction() {
     var x = document.getElementById("mytopnav");
     if (x.className === "topnav") {
@@ -7,7 +7,7 @@ function myFunction() {
       x.className = "topnav";
     }
   }
-//Scroll Back to Top Button - BC 
+//Scroll Back to Top Button - BC - April 5 
 var mybutton = document.getElementById("topBtn");
 
 window.onscroll = function() {scrollFunction()};
@@ -26,7 +26,7 @@ function topFunction() {
 }
 
 
-// ks april 14 
+// Slider - KS April 14 
 
 var slider_img = document.querySelector('.slider-img');
 var images = [ 'S1_1.jpg', 'S2_2.jpg', 'S1_3.jpg'];

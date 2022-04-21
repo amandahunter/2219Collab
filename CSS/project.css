@@ -1,5 +1,5 @@
-/* Project Page SS */
-
+/* PROJECT PAGE */ 
+/* StoryMap and Project Page SS - April 19*/
 .story1 {
     max-width: 40%;
     float: right;
@@ -12,15 +12,15 @@
     float: left;
     margin-top: 5px; 
     padding: 35px 100px 10px 100px;
-}
-  
+} 
+
 #stephs2 {
     width: 50%; 
     float: right;
     margin-top: 5px; 
     padding: 75px 100px 10px 100px;
-}
-  
+} 
+
 .steph-pic { 
     width: 50%;
 }
@@ -30,24 +30,25 @@
     max-width: 100%;
     height: auto;
 }
+
 .final-storymap {
     max-width: 100%;
     height: auto; 
 }
 
-/* div phase separator */
+/* div phase separator - KS - April 19*/
 /*.div-separate {
     background-color: #E8F5F1;
     padding: 5px;
 }*/
 
-/*div styling projects page for clarity*/
+/*div styling projects page for clarity - KS April 19*/
 .phase1 {
     background-color: #EBF2F3 ;
     padding: 0px 0px 30px 0px;
 }
 
-/*methodology KS april 19*/
+/*methodology - KS April 19*/
 .methodology {
     max-width: 50%;
     font-size: 20px;
@@ -55,7 +56,7 @@
     text-align: center;
 }
 
-/* table for problem statement ks &bc april 19*/
+/* table for problem statement KS & BC April 19*/
 .t-heading {
     padding: 50px;
     font-weight: bold;
@@ -68,15 +69,13 @@
     font-weight: bold;
 }
 
-
- /*Project page KS*/ 
+ /*Project Page - Main Settings KS (old bg colour #E8F5F1)*/ 
 .pDash {
     max-width: 40%;
-    float: right;
+    float: right; 
     margin-top: 50px;
     margin-right: 10px;
-    background-color: #E8F5F1;
-    background-color: goldenrod;
+    background-color: #def0ea;
     padding-right: 30px;
 }
   
@@ -89,34 +88,37 @@ li {
     padding-right: 50px;
     padding-bottom: 30px;
 }
+
 #paragraph2 h1 {
     padding-top: 40px;
 }
+
 #paragraph3 {
     background-color: #cde9ea;
     padding-bottom: 30px;
 }
 
-/* KS methodology static paragraph april 17 */
+/* KS Journey (methodology) static paragraph april 17 */
 /*.staticE {
     margin-left:100px;
     max-width:40%
 }
+
 .static1 {
    max-width:20%;
    padding:40px;
 }*/
 
-/* Project page margins*/
-
+/* Project page margins - KS & SS*/
 #project-page {
     margin: 25px 40px;
 }
 
-/* Ks slider  */
+/* Slider - ks  */
 .slider {
     /* margin:50px auto; */
     width: 50%;
+    height: 550px;
 }
 
 .slider2 {
@@ -131,7 +133,7 @@ li {
 .btn {
     border: none;
     outline: none;
-    background: #D8EFE7;
+    background: #c6e6dc;
     padding: 10px 30px;
     font-size: 20px;
     color: #71140C;
@@ -143,7 +145,7 @@ li {
 .btn1 {
     border: none;
     outline: none;
-    background: #D8EFE7;
+    background: #c6e6dc;
     padding: 10px 30px;
     font-size: 20px;
     color: #71140C;
@@ -153,11 +155,11 @@ li {
 }
   
 .btn:hover {
-      background: #111;
+      background: #94D2BD;
 }
   
 .btn1:hover {
-      background: #111;
+      background: #94D2BD;
 }
   
 .big-headings h1 {
@@ -165,10 +167,12 @@ li {
     text-shadow: none;
     font-size: 40px;
 }
+
 img {
     padding: 5px;
 }
 
+/* Divider btw sections in "body" of Methodology */
 .thin-divider {
     height: 4px;
     background-color: #deeaec;

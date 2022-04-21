@@ -1,3 +1,4 @@
+/* ABOUT PAGE */
 #about-header {
     margin-left: 30px;
 }
@@ -9,17 +10,15 @@
     margin: auto;
     display: flex;
 }
+
 .image {
     display: block;
     width: 100%;
     height: auto;
-    
-    /* The native size of the images is height: 300, width: 200
-    They will grow and grow (because they are flex), until they reach the value set for max-height and max-width
-    Therefore the max-height and max-width also need to be a 3:2 ratio */
     max-height: 525px;
     max-width: 350px;
 }
+
 .overlay {
     position: absolute;
     top: 0;
@@ -28,14 +27,15 @@
     opacity: 0;
     transition: .5s ease;
     background-color: #BB3E03;
-  
     /* needs same max size as the image */
     max-height: 525px;
     max-width: 350px;
 }
+
 .flex-child:hover .overlay {
     opacity: 1;
 }
+
 .text {
     color: white;
     font-size: 1.7vw;
@@ -44,11 +44,11 @@
     margin: 0px;
     padding: 20px 10px 20px 10px;
     text-align: center;
-  
     /* needs same max size as the image */
     max-height: 525px;
     max-width: 350px;
 }
+
   .flex-child {
     position: relative;
     flex: 1;

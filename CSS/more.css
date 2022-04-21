@@ -1,3 +1,4 @@
+/* MORE INFO PAGE */ 
 /*image styles April 19 AH*/
 .image-right {
     float: right;
@@ -22,6 +23,7 @@
     line-height: 25px;
     clear:both;
 }
+
 #aerial-water-tree-img {
     height: 335px;
     margin-right: 70px;
@@ -33,8 +35,7 @@
     margin-right: 70px;
     margin-left: 50px;
 }*/
-  
-  
+ 
 /*image styles April 19 AH*/
 /*#Background {
 height: 330px;
@@ -47,8 +48,8 @@ line-height: 25px;
 #Homepage-img {
     height: auto;
     margin: 140px 70px 10px 50px;
-}*/
-  
+}*/ 
+
 /*19/04/2022 AH*/
 /*.last-paragraph {
   color: #005F73;
@@ -67,6 +68,7 @@ line-height: 25px;
     margin-top: 10px;
     margin-bottom:10px;
 }
+
 /*.para1 {
     color: #005F73;
     line-height: 25px;
@@ -80,13 +82,13 @@ line-height: 25px;
     line-height: auto;
     max-width: 80%;
 }
+
 /*.para { 
     color: #005F73;
     line-height: 25px;
     max-width:100%;
     float:left;
 }*/
-
 
 /*19/04/2022 AH*/
 .pretty-box {
@@ -114,7 +116,6 @@ line-height: 25px;
     margin-right: auto;
     width: auto;
 }
-
 
 #more-info-introduction {
     text-align: center;
