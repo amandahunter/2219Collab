@@ -500,12 +500,12 @@ li {
 .slider {
     /* margin:50px auto; */
     width: 50%;
-    height: 950px;
+    height: 650px;
 }
 
 .slider2 {
     width: 50%;
-    margin-left: 350px;
+    margin: auto;
 }
 
 .img-box img {
@@ -521,7 +521,11 @@ li {
     color: #71140C;
     cursor: pointer;
     margin: 20px auto;
-    margin-left: 160px;
+}
+
+.slider-buttons {
+    display: flex;
+    justify-content: space-evenly;
 }
   
 .btn1 {
@@ -533,7 +537,6 @@ li {
     color: #71140C;
     cursor: pointer;
     margin: 20px auto;
-    margin-left: 160px;
 }
   
 .btn:hover {
