@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/project.css">
         <script src="JS/script.js" defer></script>
         <title>WebFoxtrot</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,9 +19,9 @@
                     <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                    <a href="Project.html">Problem Statement</a> <!--currently set to link to the section on 1 page can change to diff pages if needed - BC -->
-                    <a href="Project.html#paragraph2">Journey</a>
-                    <a href="Project.html#paragraph3">Solution</a>
+                        <a href="Project.html">Problem Statement</a> <!--currently set to link to the section on 1 page can change to diff pages if needed - BC -->
+                        <a href="Project.html#paragraph2">Journey</a>
+                        <a href="Project.html#paragraph3">Solution</a>
                     </div>
                 </div>
                 <a href="more.html">More Info</a>
@@ -34,7 +35,7 @@
         <!-- Button to scroll back to top of page - BC-->
         <button onclick="topFunction()" id="topBtn" title="Back to top">Top</button>
         <!-- Hero Image - BC -->
-        <div class="hero-image" id="home">
+        <div class="hero-image">
             <div class="hero-text">
                 <h1>WebFoxtrot</h1>
                 <p>Project</p>
@@ -45,39 +46,39 @@
                 <h2 class="page-header">Problem Statement</h2>
                 <!-- HTML table BC & KS April 19 -->
                 <table>
-                   <tr>
-                       <td class="theading">Ideal</td>
-                       <td class="texp">Providing the general public of Ontario access to water quality monitoring 
+                    <tr>
+                        <td class="t-heading">Ideal</td>
+                        <td class="t-exp">Providing the general public of Ontario access to water quality monitoring 
                         data from the Provincial(Stream) Water Quality Monitoring Network. This would be of 
                         benefit as it increases interest in water quality and encourages actions to improve 
                         environmental conditions.  Encourage participation in water security initiatives whether 
                         that be legislative or environmental rebate programs for home and community improvements.</td>
-                   </tr>
-                   <tr>
-                       <td  class="theading">Reality</td>
-                       <td class="texp">A well designed map and hub for accessing this location does not currently exist for 
+                    </tr>
+                    <tr>
+                        <td  class="t-heading">Reality</td>
+                        <td class="t-exp">A well designed map and hub for accessing this location does not currently exist for 
                         Ontarians. People may be unaware of why they should care about the water quality in 
                         their area or unsure of their own agency in this topic. </td>
-                   </tr>
-                   <tr>
-                    <td  class="theading">Consequences</td>
-                    <td class="texp">The lack of accessibility to this data would cause people to continue to be uneducated 
-                        about existing water quality monitoring programs. This may lead to them feeling detached 
-                        from water security initiatives.</td>
-                </tr>
-                <tr>
-                    <td  class="theading">Proposal</td>
-                    <td class="texp">An ESRI dashboard will be created to display the Provincial(Stream) Water Quality Monitoring 
-                        Data for Ontario, specifically the water monitoring station locations and the 2021 data for 
-                        those stations. It will come from the governments open data portal. The dashboard will include
-                        a well designed interactive map as well as display a summarization of 5 major water quality 
-                        monitoring variables.  A story map will also be created to describe the process of creating the 
-                        dashboard as well as general information about this specific water quality monitoring program. 
-                        This storymap will allow the public to feel more involved in the creation process to foster a 
-                        better understanding of how the program works, it's benefits to their lives and how they can be 
-                        involved with water security issues.</td>
-                </tr>
-                  </table>
+                    </tr>
+                    <tr>
+                        <td  class="t-heading">Consequences</td>
+                        <td class="t-exp">The lack of accessibility to this data would cause people to continue to be uneducated 
+                            about existing water quality monitoring programs. This may lead to them feeling detached 
+                            from water security initiatives.</td>
+                    </tr>
+                    <tr>
+                        <td  class="t-heading">Proposal</td>
+                        <td class="t-exp">An ESRI dashboard will be created to display the Provincial(Stream) Water Quality Monitoring 
+                            Data for Ontario, specifically the water monitoring station locations and the 2021 data for 
+                            those stations. It will come from the governments open data portal. The dashboard will include
+                            a well designed interactive map as well as display a summarization of 5 major water quality 
+                            monitoring variables.  A story map will also be created to describe the process of creating the 
+                            dashboard as well as general information about this specific water quality monitoring program. 
+                            This storymap will allow the public to feel more involved in the creation process to foster a 
+                            better understanding of how the program works, it's benefits to their lives and how they can be 
+                            involved with water security issues.</td>
+                    </tr>
+                </table>
 
             <!-- Dashboard methodology KS last edited april 19 -->
             </section>
@@ -87,37 +88,37 @@
                     what limitations we felt were present considering the software we used, plus our own personal limitations and an explanation of what 
                     we feel we could have done better
                 </p>
-            <!-- Methodology Dashboard last updated KS 14/04/2022-->
-            <div class="phase1">
-                <h2>Phase One: Dashboard</h2> 
-                <div > 
-                    <h3 class="steps"> Step One: Data Prep </h3> 
-                    <ol class="pDash">
-                        <li> Data was downloaded from Ontario's Open data portal. The data sets chosen were:  one shp file 
-                             that showed all of the stations, both active and inactive, and one excel file with collection data for 2020
-                        </li>
-                        <li> The collection dataset had no data location attached so it was joined to the shp file of stations. After this was done 
-                            the XY Table to point tool was used so it could be mapped. Then a set of a parameters that we wished to 
-                            represent were selected to create a new feature layer. The parameters selected were: Dissolved oxygen,
-                             PH, water temperature, nitrogen, phosphate and e. coli.
-                        </li>
-                        <li> This layer with station location and collection data for our selected parameters was exported to ArcGIS Online 
-                            and a map was created to be embedded in the dashboard </li>
-                    </ol>
-                </div>
- 
-                <div class="slider">
-                    <div class="img-box">
-                      <img src="Images/S1_1.jpg" class="slider-img" alt="Open data portal from the government of Ontario">
+                <!-- Methodology Dashboard last updated KS 14/04/2022-->
+                <div class="phase1">
+                    <h2>Phase One: Dashboard</h2> 
+                    <div > 
+                        <h3 class="steps"> Step One: Data Prep </h3> 
+                        <ol class="pDash">
+                            <li> Data was downloaded from Ontario's Open data portal. The data sets chosen were:  one shp file 
+                                that showed all of the stations, both active and inactive, and one excel file with collection data for 2020
+                            </li>
+                            <li> The collection dataset had no data location attached so it was joined to the shp file of stations. After this was done 
+                                the XY Table to point tool was used so it could be mapped. Then a set of a parameters that we wished to 
+                                represent were selected to create a new feature layer. The parameters selected were: Dissolved oxygen,
+                                PH, water temperature, nitrogen, phosphate and e. coli.
+                            </li>
+                            <li> This layer with station location and collection data for our selected parameters was exported to ArcGIS Online 
+                                and a map was created to be embedded in the dashboard </li>
+                        </ol>
                     </div>
+    
+                    <div class="slider">
+                        <div class="img-box">
+                        <img src="Images/S1_1.jpg" class="slider-img" alt="Open data portal from the government of Ontario">
+                        </div>
+                    
+                        <button class="btn" onclick="prev()">Prev</button>
+                        <button class="btn" onclick="next()">Next</button>
+                    </div>
+                    
                 
-                    <button class="btn" onclick="prev()">Prev</button>
-                    <button class="btn" onclick="next()">Next</button>
-                  </div>
-                
-            
 
-                 <!-- step two of phase one, 2 text and 2 sliders KS last edited april 19 -->            
+                    <!-- step two of phase one, 2 text and 2 sliders KS last edited april 19 -->            
                     <h3> Step Two: Configuring Dashboard</h3>
                     <p>We chose to use ArcGIS Dashboards to represent the data as it allowed for the stations to be represented in a clear interactive map,
                         similarly to the site for the provincial water quality monitoring network with the addition to the user being able to see collected data. 
@@ -125,7 +126,7 @@
                         and this water quality monitoring program in particular, the intended focus of the Dashboard was conveying information
                         about data collected at individual stations. The elements of the dashboard can be split into two categories: Dynamic and Static. 
                     </p>  
-                   
+                    
                     <div class="static">
                         <h4>Static</h4>
                         <p class="pdash1">The static elements are an indicator that shows the number of stations and number of years that 
@@ -135,20 +136,20 @@
                             ,which may be the case where automation of collected data into the layer happens. The water level data was added in using the rich text widget, 
                             which is a simple text element.  
                         </p>
+                    </div>
+
+                        
+                    <!-- SLIDER FOR STATIC IMAGES Ks last edited april 19  -->
+                    <div class="slider2">
+                        <div class="img-box">
+                            <img src="Images/static_elements.jpg" class="static-img" alt = "static parts of dashboard">
                         </div>
-    
+                    
+                        <button class="btn1" onclick="prev1()">Prev</button>
+                        <button class="btn1" onclick="next1()">Next</button>
+                    </div>
                         
-                        <!-- SLIDER FOR STATIC IMAGES Ks last edited april 19  -->
-                        <div class="slider2">
-                            <div class="img-box">
-                              <img src="Images/static_elements.jpg" class="static-img" alt = "static parts of dashboard">
-                            </div>
-                        
-                            <button class="btn1" onclick="prev1()">Prev</button>
-                            <button class="btn1" onclick="next1()">Next</button>
-                          </div>
-                        
-                        <div class="dynamic">
+                    <div class="dynamic">
                         <h4>Dynamic</h4>
                         <p class="pdash1"> The dynamic elements of the map change once the end user chooses a station. It will tell them how many years 
                             the station has been active, what types of collection has happened there and finally the data table of results
@@ -157,20 +158,20 @@
                             actions and the indicator, pie chart and data table were the targets and the type of targeting that we used was filtering. 
                             When a station is chosen the data is filtered and the targets show the corresponding data.  
                         </p>
+                    </div>
+
+                    <!-- SLIDER FOR STATIC IMAGES Ks last edited april 19 -->
+
+                    <div class="slider2" >
+                        <div class="img-box">
+                            <img src="Images/dynamic_elements.jpg" class="dynamic-img" alt = "dynamic elements of dashboard">
                         </div>
-    
-                        <!-- SLIDER FOR STATIC IMAGES Ks last edited april 19 -->
-    
-                        <div class="slider2" >
-                            <div class="img-box">
-                              <img src="Images/dynamic_elements.jpg" class="dynamic-img" alt = "dynamic elements of dashboard">
-                            </div>
-                        
-                            <button class="btn" onclick="prev2()">Prev</button>
-                            <button class="btn" onclick="next2()">Next</button>
-                          </div>
-                          
-                   <!-- discoveries and limitations for the dashboard section KS april 19-->
+                    
+                        <button class="btn" onclick="prev2()">Prev</button>
+                        <button class="btn" onclick="next2()">Next</button>
+                    </div>
+                            
+                    <!-- discoveries and limitations for the dashboard section KS april 19-->
                     <h3> Discoveries and Limitations</h3>   
                     <p> ArcGIS Dashboards gave us the ability to display the map alongside key data points that we thought fit into the overall 
                         theme. Integrating the map was simple as it was created in ArcGIS Online so it was readily available as an item to be 
@@ -182,7 +183,7 @@
                     
                     <p> One discovery that was made but was not implemented for this dashboard was using selectors to allow users to filter the data 
                         themselves based on features. While we attempted to do this in different ways the ultimate problem was the way the data was put together 
-                        in the excel was not ideal for using this feature. This feature would have allowed us to let people filter reults by things like parameters or 
+                        in the excel was not ideal for using this feature. This feature would have allowed us to let people filter results by things like parameters or 
                         specific locations very easily. The benefit of this discovery is that if there is control over how the data is collected or extra time to sort 
                         and clean the data this would enhance the dashboard in a big way.
                     </p>
@@ -193,89 +194,87 @@
                         easily resolved by introducing interaction. A limitation we faced is that there is no way for the dashboard to default to this selection mode.
                         The interaction that fills the dashboard is dependent on the end-user knowing that they couldn't just click on the stations but 
                         instead first had to click the selection tool (b) and then make their selection. We tried to remedy this by including instructions for using
-                         the select tool below the map (c), but it's acknowledged that it isn't the most intuitive user interface. 
+                            the select tool below the map (c), but it's acknowledged that it isn't the most intuitive user interface. 
                     </p>
-                    <!-- slide 4 correspondin to the "the design of the db" paragraph ks -->
+                    <!-- slide 4 corresponding to the "the design of the db" paragraph ks -->
                     <div class="slider2" >
                         <div class="img-box">
-                          <img src="Images/Limit_1.jpg" class="limit-img" alt = "tlimits">
+                            <img src="Images/Limit_1.jpg" class="limit-img" alt = "dashboard-limits">
                         </div>
 
                         <button class="btn" onclick="prev4()">Prev</button>
                         <button class="btn" onclick="next4()">Next</button>
-                      </div>
+                    </div>
 
-                      <!--Limitation AH april 20 -->
-                      <p>
+                    <!--Limitation AH april 20 -->
+                    <p>
                         A final limitation we experienced was in overall formatting of the rich text window. We had originally wanted to colour code some of our text to
-                         match our pie charts as well as other adjustments to the text, and found the settings available to toggle incredibly limited in this 
-                         regard. Colour blocking and enhanced layout design were unavailable and we really would have preferred a more dynamic solution in this application.
-                        </p>
-            </div>
-            
-                <!--Story Map Methodology, SS; Last update: April 20-->
-            <div class="phase1">
-                <h2>Phase Two: Story Map</h2> 
-                <p> Using Esri Story Map functionality, we were able to create and house an area where we will be able to fully tell our story. </p>
-                <p> This Story Map was made to be simple and to make information digestible for the audience, therefore, the sections are only meant to be summaries of the major information. 
-                    The steps below show how the story map was created:</p>
-                <div>
-                    <h3> Step 1: Create a Custom Story Map Theme</h3>
-                    <div> <img src="Images/Theme.png" alt="Screenshot of Create Theme page">
-                        <p class="story1"> The first step in creating the story map was to create a custom theme using the Story Maps Create a Theme functionality. 
-                            Creating a custom map theme allows for further cohesion and integration of the story map into the website.  In addition to this, by creating your own map theme
-                        you are allowed more control and uniqueness </p>
-                    </div>
+                            match our pie charts as well as other adjustments to the text, and found the settings available to toggle incredibly limited in this 
+                            regard. Colour blocking and enhanced layout design were unavailable and we really would have preferred a more dynamic solution in this application.
+                    </p>
                 </div>
-                <div>
-                    <h3> Step 2: Create the flow </h3>
-                </div> 
-                <p>The flow of the Story Map was centered around asking the big questions: Who, What, Where, When, How and most importantly, Why.
-                    By asking, and answering the most basic questions, we are able to reach a wider audience and help them to understand not only water quality but why it's important
-                    to care about what goes on in the water systems. 
-                </p>
-                <!--Slider for storymap "Questions"-->
-                <div class="slider2" >
-                    <div class="img-box">
-                      <img src="Images/WhoWater.png" class="storymap-img" alt = "the who of the water section">
+                
+                    <!--Story Map Methodology, SS; Last update: April 20-->
+                <div class="phase1">
+                    <h2>Phase Two: Story Map</h2> 
+                    <p> Using Esri Story Map functionality, we were able to create and house an area where we will be able to fully tell our story. </p>
+                    <p> This Story Map was made to be simple and to make information digestible for the audience, therefore, the sections are only meant to be summaries of the major information. 
+                        The steps below show how the story map was created:</p>
+                    <div>
+                        <h3> Step 1: Create a Custom Story Map Theme</h3>
+                        <div> <img src="Images/Theme.png" alt="Screenshot of Create Theme page">
+                            <p class="story1"> The first step in creating the story map was to create a custom theme using the Story Maps Create a Theme functionality. 
+                                Creating a custom map theme allows for further cohesion and integration of the story map into the website.  In addition to this, by creating your own map theme
+                            you are allowed more control and uniqueness </p>
+                        </div>
                     </div>
-                
-                    <button class="btn" onclick="prev3()">Prev</button>
-                    <button class="btn" onclick="next3()">Next</button>
-                  </div>
-                <div>
-                <div> 
-                    <h3> Step 3: Fill in the Story </h3>
-                
-                
-                    <img src="Images/AddInfo1.png" alt= "Screenshot of adding information icon" class="stephpic">
-                    <p class="stephs1"> Filling in the information was quite simple when it came time for it. Since the flow was set up, all that needed to be done 
-                        was some plugging in. The Story Map functionality allows for several different formatting options, which can be accessed by hovering over the
-                     area you wish to house the information and selecting the plus button that appears (see red box in the image to the right) </p>
-                </div> 
-                <div>
-                    <img src="Images/AddInfo2.png" alt= "Screenshot of options to add to Story Map" class="stephpic">
-                    <p class="stephs2"> The image to the left shows the options available. Because the theme was created prior to this, everything was predetermined. There were different
-                        colours set for the different elements (Headings versus paragraphs, for example) so this allowed for formatting to be quite straightforward. Information needed to 
-                        be inserted under its heading. Pictures were also inserted to help fully tell the story.  The more visuals there are, the more engaged readers can be.</p>
-                </div>
+                    <div>
+                        <h3> Step 2: Create the flow </h3>
+                    </div> 
+                    <p>The flow of the Story Map was centered around asking the big questions: Who, What, Where, When, How and most importantly, Why.
+                        By asking, and answering the most basic questions, we are able to reach a wider audience and help them to understand not only water quality but why it's important
+                        to care about what goes on in the water systems. 
+                    </p>
+                    <!--Slider for storymap "Questions"-->
+                    <div class="slider2" >
+                        <div class="img-box">
+                        <img src="Images/WhoWater.png" class="storymap-img" alt = "the who of the water section">
+                        </div>
+                    
+                        <button class="btn" onclick="prev3()">Prev</button>
+                        <button class="btn" onclick="next3()">Next</button>
+                    </div>
+                    <div> 
+                        <h3> Step 3: Fill in the Story </h3>
+                    
+                        <img src="Images/AddInfo1.png" alt= "Screenshot of adding information icon" class="steph-pic">
+                        <p class="stephs1"> Filling in the information was quite simple when it came time for it. Since the flow was set up, all that needed to be done 
+                            was some plugging in. The Story Map functionality allows for several different formatting options, which can be accessed by hovering over the
+                        area you wish to house the information and selecting the plus button that appears (see red box in the image to the right) </p>
+                    </div> 
+                    <div>
+                        <img src="Images/AddInfo2.png" alt= "Screenshot of options to add to Story Map" class="steph-pic">
+                        <p class="stephs2"> The image to the left shows the options available. Because the theme was created prior to this, everything was predetermined. There were different
+                            colours set for the different elements (Headings versus paragraphs, for example) so this allowed for formatting to be quite straightforward. Information needed to 
+                            be inserted under its heading. Pictures were also inserted to help fully tell the story.  The more visuals there are, the more engaged readers can be.</p>
+                    </div>
 
                     <h3>Discoveries and Limitations</h3>
                     <p>Overall, creating the Story Map was simple, straightforward and enjoyable.  However, there are so formatting gaps that became frustrating.  For example, you are unable to
                         horizontally place buttons next to each other, they are only available to be vertically stacked. This takes up valuable space as the user works their way through the Story
                         as it makes it longer in length, unnecessarily. 
                     </p>
-                
-            </div>
+                    
+                </div>
 
             </section>
             <section id="paragraph3" class="big-headings">
                 <h1>Solution</h1>
                 <p>Click the images bellow to explore the final Dashboards and StoryMap created by WebFoxtrot</p>
                 <h2>ArcGIS Dashboards</h2> 
-                <a href="https://fleming.maps.arcgis.com/apps/dashboards/0004dbc7e7eb409e90229e3e7b626a0b" target="_blank"><img src="Images/Solution/finaldashboard.jpg" alt="Screenshot of the final Dashboard" class="finaldashboard"></a>
+                <a href="https://fleming.maps.arcgis.com/apps/dashboards/0004dbc7e7eb409e90229e3e7b626a0b" target="_blank"><img src="Images/Solution/finaldashboard.jpg" alt="Screenshot of the final Dashboard" class="final-dashboard"></a>
                 <h2>ArcGIS StoryMap</h2>
-                <a href="https://storymaps.arcgis.com/stories/2a40eccc93e34141b327dd9c2fd2154b" target="_blank"><img src="Images/Solution/finalstorymap.jpg" alt="Screenshot of the final StoryMap" class="finalstorymap"></a>
+                <a href="https://storymaps.arcgis.com/stories/2a40eccc93e34141b327dd9c2fd2154b" target="_blank"><img src="Images/Solution/finalstorymap.jpg" alt="Screenshot of the final StoryMap" class="final-storymap"></a>
             </section> 
         </main>
         <!-- Footer BC -->
